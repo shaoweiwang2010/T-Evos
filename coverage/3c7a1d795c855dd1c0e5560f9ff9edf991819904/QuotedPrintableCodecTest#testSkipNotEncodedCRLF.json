@@ -1,0 +1,266 @@
+{
+    "covered_lines": {
+        "Apache Commons Codec.org.apache.commons.codec.Charsets": [
+            "99",
+            "110",
+            "122",
+            "133",
+            "144",
+            "155"
+        ],
+        "Apache Commons Codec.org.apache.commons.codec.binary.StringUtils": [
+            "97",
+            "199",
+            "355"
+        ],
+        "Apache Commons Codec.org.apache.commons.codec.net.QuotedPrintableCodec": [
+            "80",
+            "101",
+            "104",
+            "106",
+            "107",
+            "108",
+            "125",
+            "126",
+            "148",
+            "149",
+            "150",
+            "151",
+            "202",
+            "206",
+            "225",
+            "226",
+            "279",
+            "282",
+            "286",
+            "304",
+            "306",
+            "317",
+            "320",
+            "322",
+            "335",
+            "355",
+            "357",
+            "362",
+            "364",
+            "365",
+            "366",
+            "369",
+            "372",
+            "375",
+            "391",
+            "409",
+            "429",
+            "449",
+            "486",
+            "547",
+            "577"
+        ],
+        "Apache Commons Codec.org.apache.commons.codec.net.Utils": [
+            "43",
+            "47"
+        ]
+    },
+    "covered_stats": {
+        "Apache Commons Codec.org.apache.commons.codec.Charsets.static {...}": {
+            "branch_coverage": "n/a",
+            "line_coverage": "100%",
+            "missed_complexity": "0",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "1",
+            "total_lines": "6",
+            "total_methods": "1"
+        },
+        "Apache Commons Codec.org.apache.commons.codec.binary.StringUtils.getBytes(String, Charset)": {
+            "branch_coverage": "50%",
+            "line_coverage": "75%",
+            "missed_complexity": "1",
+            "missed_lines": "1",
+            "missed_methods": "0",
+            "total_complexity": "2",
+            "total_lines": "3",
+            "total_methods": "1"
+        },
+        "Apache Commons Codec.org.apache.commons.codec.binary.StringUtils.getBytesUsAscii(String)": {
+            "branch_coverage": "n/a",
+            "line_coverage": "100%",
+            "missed_complexity": "0",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "1",
+            "total_lines": "1",
+            "total_methods": "1"
+        },
+        "Apache Commons Codec.org.apache.commons.codec.binary.StringUtils.newStringUsAscii(byte[])": {
+            "branch_coverage": "n/a",
+            "line_coverage": "100%",
+            "missed_complexity": "0",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "1",
+            "total_lines": "1",
+            "total_methods": "1"
+        },
+        "Apache Commons Codec.org.apache.commons.codec.net.QuotedPrintableCodec.QuotedPrintableCodec(Charset, boolean)": {
+            "branch_coverage": "n/a",
+            "line_coverage": "100%",
+            "missed_complexity": "0",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "1",
+            "total_lines": "4",
+            "total_methods": "1"
+        },
+        "Apache Commons Codec.org.apache.commons.codec.net.QuotedPrintableCodec.QuotedPrintableCodec(boolean)": {
+            "branch_coverage": "n/a",
+            "line_coverage": "100%",
+            "missed_complexity": "0",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "1",
+            "total_lines": "2",
+            "total_methods": "1"
+        },
+        "Apache Commons Codec.org.apache.commons.codec.net.QuotedPrintableCodec.decode(String)": {
+            "branch_coverage": "n/a",
+            "line_coverage": "100%",
+            "missed_complexity": "0",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "1",
+            "total_lines": "1",
+            "total_methods": "1"
+        },
+        "Apache Commons Codec.org.apache.commons.codec.net.QuotedPrintableCodec.decode(String, Charset)": {
+            "branch_coverage": "50%",
+            "line_coverage": "84%",
+            "missed_complexity": "1",
+            "missed_lines": "1",
+            "missed_methods": "0",
+            "total_complexity": "2",
+            "total_lines": "3",
+            "total_methods": "1"
+        },
+        "Apache Commons Codec.org.apache.commons.codec.net.QuotedPrintableCodec.decode(byte[])": {
+            "branch_coverage": "n/a",
+            "line_coverage": "100%",
+            "missed_complexity": "0",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "1",
+            "total_lines": "1",
+            "total_methods": "1"
+        },
+        "Apache Commons Codec.org.apache.commons.codec.net.QuotedPrintableCodec.decodeQuotedPrintable(byte[])": {
+            "branch_coverage": "91%",
+            "line_coverage": "86%",
+            "missed_complexity": "1",
+            "missed_lines": "3",
+            "missed_methods": "0",
+            "total_complexity": "7",
+            "total_lines": "17",
+            "total_methods": "1"
+        },
+        "Apache Commons Codec.org.apache.commons.codec.net.QuotedPrintableCodec.encode(String)": {
+            "branch_coverage": "n/a",
+            "line_coverage": "100%",
+            "missed_complexity": "0",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "1",
+            "total_lines": "1",
+            "total_methods": "1"
+        },
+        "Apache Commons Codec.org.apache.commons.codec.net.QuotedPrintableCodec.encode(String, Charset)": {
+            "branch_coverage": "50%",
+            "line_coverage": "81%",
+            "missed_complexity": "1",
+            "missed_lines": "1",
+            "missed_methods": "0",
+            "total_complexity": "2",
+            "total_lines": "3",
+            "total_methods": "1"
+        },
+        "Apache Commons Codec.org.apache.commons.codec.net.QuotedPrintableCodec.encode(byte[])": {
+            "branch_coverage": "n/a",
+            "line_coverage": "100%",
+            "missed_complexity": "0",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "1",
+            "total_lines": "1",
+            "total_methods": "1"
+        },
+        "Apache Commons Codec.org.apache.commons.codec.net.QuotedPrintableCodec.encodeByte(int, boolean, ByteArrayOutputStream)": {
+            "branch_coverage": "50%",
+            "line_coverage": "63%",
+            "missed_complexity": "1",
+            "missed_lines": "1",
+            "missed_methods": "0",
+            "total_complexity": "2",
+            "total_lines": "4",
+            "total_methods": "1"
+        },
+        "Apache Commons Codec.org.apache.commons.codec.net.QuotedPrintableCodec.encodeQuotedPrintable(BitSet, byte[], boolean)": {
+            "branch_coverage": "42%",
+            "line_coverage": "56%",
+            "missed_complexity": "16",
+            "missed_lines": "17",
+            "missed_methods": "0",
+            "total_complexity": "20",
+            "total_lines": "36",
+            "total_methods": "1"
+        },
+        "Apache Commons Codec.org.apache.commons.codec.net.QuotedPrintableCodec.getCharset()": {
+            "branch_coverage": "n/a",
+            "line_coverage": "100%",
+            "missed_complexity": "0",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "1",
+            "total_lines": "1",
+            "total_methods": "1"
+        },
+        "Apache Commons Codec.org.apache.commons.codec.net.QuotedPrintableCodec.getUnsignedOctet(int, byte[])": {
+            "branch_coverage": "50%",
+            "line_coverage": "66%",
+            "missed_complexity": "1",
+            "missed_lines": "1",
+            "missed_methods": "0",
+            "total_complexity": "2",
+            "total_lines": "4",
+            "total_methods": "1"
+        },
+        "Apache Commons Codec.org.apache.commons.codec.net.QuotedPrintableCodec.isWhitespace(int)": {
+            "branch_coverage": "50%",
+            "line_coverage": "80%",
+            "missed_complexity": "2",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "3",
+            "total_lines": "1",
+            "total_methods": "1"
+        },
+        "Apache Commons Codec.org.apache.commons.codec.net.QuotedPrintableCodec.static {...}": {
+            "branch_coverage": "100%",
+            "line_coverage": "100%",
+            "missed_complexity": "0",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "3",
+            "total_lines": "8",
+            "total_methods": "1"
+        },
+        "Apache Commons Codec.org.apache.commons.codec.net.Utils.digit16(byte)": {
+            "branch_coverage": "50%",
+            "line_coverage": "45%",
+            "missed_complexity": "1",
+            "missed_lines": "1",
+            "missed_methods": "0",
+            "total_complexity": "2",
+            "total_lines": "4",
+            "total_methods": "1"
+        }
+    }
+}

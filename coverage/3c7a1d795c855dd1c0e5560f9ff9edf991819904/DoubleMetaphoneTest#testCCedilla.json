@@ -1,0 +1,170 @@
+{
+    "covered_lines": {
+        "Apache Commons Codec.org.apache.commons.codec.binary.StringUtils": [
+            "79"
+        ],
+        "Apache Commons Codec.org.apache.commons.codec.language.DoubleMetaphone": [
+            "48",
+            "50",
+            "52",
+            "54",
+            "60",
+            "66",
+            "67",
+            "87",
+            "92",
+            "95",
+            "113",
+            "114",
+            "115",
+            "166",
+            "167",
+            "231",
+            "245",
+            "253",
+            "637",
+            "641",
+            "875",
+            "882",
+            "892",
+            "896",
+            "917",
+            "928",
+            "938",
+            "939",
+            "942",
+            "943",
+            "944",
+            "947",
+            "948",
+            "949",
+            "958",
+            "960",
+            "964",
+            "966",
+            "997"
+        ]
+    },
+    "covered_stats": {
+        "Apache Commons Codec.org.apache.commons.codec.binary.StringUtils.equals(CharSequence, CharSequence)": {
+            "branch_coverage": "50%",
+            "line_coverage": "51%",
+            "missed_complexity": "5",
+            "missed_lines": "3",
+            "missed_methods": "0",
+            "total_complexity": "6",
+            "total_lines": "7",
+            "total_methods": "1"
+        },
+        "Apache Commons Codec.org.apache.commons.codec.language.DoubleMetaphone.DoubleMetaphone()": {
+            "branch_coverage": "n/a",
+            "line_coverage": "100%",
+            "missed_complexity": "0",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "1",
+            "total_lines": "3",
+            "total_methods": "1"
+        },
+        "Apache Commons Codec.org.apache.commons.codec.language.DoubleMetaphone.cleanInput(String)": {
+            "branch_coverage": "50%",
+            "line_coverage": "75%",
+            "missed_complexity": "2",
+            "missed_lines": "2",
+            "missed_methods": "0",
+            "total_complexity": "3",
+            "total_lines": "6",
+            "total_methods": "1"
+        },
+        "Apache Commons Codec.org.apache.commons.codec.language.DoubleMetaphone.contains(String, int, int, String[])": {
+            "branch_coverage": "37%",
+            "line_coverage": "28%",
+            "missed_complexity": "3",
+            "missed_lines": "5",
+            "missed_methods": "0",
+            "total_complexity": "5",
+            "total_lines": "8",
+            "total_methods": "1"
+        },
+        "Apache Commons Codec.org.apache.commons.codec.language.DoubleMetaphone.doubleMetaphone(String, boolean)": {
+            "branch_coverage": "16%",
+            "line_coverage": "18%",
+            "missed_complexity": "33",
+            "missed_lines": "53",
+            "missed_methods": "0",
+            "total_complexity": "36",
+            "total_lines": "66",
+            "total_methods": "1"
+        },
+        "Apache Commons Codec.org.apache.commons.codec.language.DoubleMetaphone.getMaxCodeLen()": {
+            "branch_coverage": "n/a",
+            "line_coverage": "100%",
+            "missed_complexity": "0",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "1",
+            "total_lines": "1",
+            "total_methods": "1"
+        },
+        "Apache Commons Codec.org.apache.commons.codec.language.DoubleMetaphone.handleS(String, DoubleMetaphone.DoubleMetaphoneResult, int, boolean)": {
+            "branch_coverage": "40%",
+            "line_coverage": "63%",
+            "missed_complexity": "16",
+            "missed_lines": "15",
+            "missed_methods": "0",
+            "total_complexity": "17",
+            "total_lines": "26",
+            "total_methods": "1"
+        },
+        "Apache Commons Codec.org.apache.commons.codec.language.DoubleMetaphone.isDoubleMetaphoneEqual(String, String)": {
+            "branch_coverage": "n/a",
+            "line_coverage": "100%",
+            "missed_complexity": "0",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "1",
+            "total_lines": "1",
+            "total_methods": "1"
+        },
+        "Apache Commons Codec.org.apache.commons.codec.language.DoubleMetaphone.isDoubleMetaphoneEqual(String, String, boolean)": {
+            "branch_coverage": "n/a",
+            "line_coverage": "100%",
+            "missed_complexity": "0",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "1",
+            "total_lines": "1",
+            "total_methods": "1"
+        },
+        "Apache Commons Codec.org.apache.commons.codec.language.DoubleMetaphone.isSilentStart(String)": {
+            "branch_coverage": "75%",
+            "line_coverage": "88%",
+            "missed_complexity": "1",
+            "missed_lines": "2",
+            "missed_methods": "0",
+            "total_complexity": "3",
+            "total_lines": "6",
+            "total_methods": "1"
+        },
+        "Apache Commons Codec.org.apache.commons.codec.language.DoubleMetaphone.isSlavoGermanic(String)": {
+            "branch_coverage": "50%",
+            "line_coverage": "91%",
+            "missed_complexity": "4",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "5",
+            "total_lines": "2",
+            "total_methods": "1"
+        },
+        "Apache Commons Codec.org.apache.commons.codec.language.DoubleMetaphone.static {...}": {
+            "branch_coverage": "n/a",
+            "line_coverage": "100%",
+            "missed_complexity": "0",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "1",
+            "total_lines": "4",
+            "total_methods": "1"
+        }
+    }
+}

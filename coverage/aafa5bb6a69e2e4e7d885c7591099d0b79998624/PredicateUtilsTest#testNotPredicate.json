@@ -1,0 +1,90 @@
+{
+    "covered_lines": {
+        "Apache Commons Collections.org.apache.commons.collections4.PredicateUtils": [
+            "452"
+        ],
+        "Apache Commons Collections.org.apache.commons.collections4.functors.NotPredicate": [
+            "49",
+            "59",
+            "60",
+            "61"
+        ],
+        "Apache Commons Collections.org.apache.commons.collections4.functors.TruePredicate": [
+            "36",
+            "47",
+            "64"
+        ]
+    },
+    "covered_stats": {
+        "Apache Commons Collections.org.apache.commons.collections4.PredicateUtils.notPredicate(Predicate)": {
+            "branch_coverage": "n/a",
+            "line_coverage": "100%",
+            "missed_complexity": "0",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "1",
+            "total_lines": "1",
+            "total_methods": "1"
+        },
+        "Apache Commons Collections.org.apache.commons.collections4.functors.NotPredicate.NotPredicate(Predicate)": {
+            "branch_coverage": "n/a",
+            "line_coverage": "100%",
+            "missed_complexity": "0",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "1",
+            "total_lines": "3",
+            "total_methods": "1"
+        },
+        "Apache Commons Collections.org.apache.commons.collections4.functors.NotPredicate.evaluate(Object)": {
+            "branch_coverage": "50%",
+            "line_coverage": "77%",
+            "missed_complexity": "1",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "2",
+            "total_lines": "1",
+            "total_methods": "1"
+        },
+        "Apache Commons Collections.org.apache.commons.collections4.functors.NotPredicate.notPredicate(Predicate)": {
+            "branch_coverage": "50%",
+            "line_coverage": "58%",
+            "missed_complexity": "1",
+            "missed_lines": "1",
+            "missed_methods": "0",
+            "total_complexity": "2",
+            "total_lines": "3",
+            "total_methods": "1"
+        },
+        "Apache Commons Collections.org.apache.commons.collections4.functors.TruePredicate.evaluate(Object)": {
+            "branch_coverage": "n/a",
+            "line_coverage": "100%",
+            "missed_complexity": "0",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "1",
+            "total_lines": "1",
+            "total_methods": "1"
+        },
+        "Apache Commons Collections.org.apache.commons.collections4.functors.TruePredicate.static {...}": {
+            "branch_coverage": "n/a",
+            "line_coverage": "100%",
+            "missed_complexity": "0",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "1",
+            "total_lines": "1",
+            "total_methods": "1"
+        },
+        "Apache Commons Collections.org.apache.commons.collections4.functors.TruePredicate.truePredicate()": {
+            "branch_coverage": "n/a",
+            "line_coverage": "100%",
+            "missed_complexity": "0",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "1",
+            "total_lines": "1",
+            "total_methods": "1"
+        }
+    }
+}

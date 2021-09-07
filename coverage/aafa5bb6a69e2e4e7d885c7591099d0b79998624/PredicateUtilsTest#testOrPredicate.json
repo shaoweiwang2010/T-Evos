@@ -1,0 +1,126 @@
+{
+    "covered_lines": {
+        "Apache Commons Collections.org.apache.commons.collections4.PredicateUtils": [
+            "306"
+        ],
+        "Apache Commons Collections.org.apache.commons.collections4.functors.FalsePredicate": [
+            "36",
+            "47",
+            "64"
+        ],
+        "Apache Commons Collections.org.apache.commons.collections4.functors.OrPredicate": [
+            "53",
+            "64",
+            "65",
+            "66",
+            "67"
+        ],
+        "Apache Commons Collections.org.apache.commons.collections4.functors.TruePredicate": [
+            "36",
+            "47",
+            "64"
+        ]
+    },
+    "covered_stats": {
+        "Apache Commons Collections.org.apache.commons.collections4.PredicateUtils.orPredicate(Predicate, Predicate)": {
+            "branch_coverage": "n/a",
+            "line_coverage": "100%",
+            "missed_complexity": "0",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "1",
+            "total_lines": "1",
+            "total_methods": "1"
+        },
+        "Apache Commons Collections.org.apache.commons.collections4.functors.FalsePredicate.evaluate(Object)": {
+            "branch_coverage": "n/a",
+            "line_coverage": "100%",
+            "missed_complexity": "0",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "1",
+            "total_lines": "1",
+            "total_methods": "1"
+        },
+        "Apache Commons Collections.org.apache.commons.collections4.functors.FalsePredicate.falsePredicate()": {
+            "branch_coverage": "n/a",
+            "line_coverage": "100%",
+            "missed_complexity": "0",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "1",
+            "total_lines": "1",
+            "total_methods": "1"
+        },
+        "Apache Commons Collections.org.apache.commons.collections4.functors.FalsePredicate.static {...}": {
+            "branch_coverage": "n/a",
+            "line_coverage": "100%",
+            "missed_complexity": "0",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "1",
+            "total_lines": "1",
+            "total_methods": "1"
+        },
+        "Apache Commons Collections.org.apache.commons.collections4.functors.OrPredicate.OrPredicate(Predicate, Predicate)": {
+            "branch_coverage": "n/a",
+            "line_coverage": "100%",
+            "missed_complexity": "0",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "1",
+            "total_lines": "4",
+            "total_methods": "1"
+        },
+        "Apache Commons Collections.org.apache.commons.collections4.functors.OrPredicate.evaluate(Object)": {
+            "branch_coverage": "100%",
+            "line_coverage": "100%",
+            "missed_complexity": "0",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "3",
+            "total_lines": "1",
+            "total_methods": "1"
+        },
+        "Apache Commons Collections.org.apache.commons.collections4.functors.OrPredicate.orPredicate(Predicate, Predicate)": {
+            "branch_coverage": "50%",
+            "line_coverage": "66%",
+            "missed_complexity": "2",
+            "missed_lines": "1",
+            "missed_methods": "0",
+            "total_complexity": "3",
+            "total_lines": "3",
+            "total_methods": "1"
+        },
+        "Apache Commons Collections.org.apache.commons.collections4.functors.TruePredicate.evaluate(Object)": {
+            "branch_coverage": "n/a",
+            "line_coverage": "100%",
+            "missed_complexity": "0",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "1",
+            "total_lines": "1",
+            "total_methods": "1"
+        },
+        "Apache Commons Collections.org.apache.commons.collections4.functors.TruePredicate.static {...}": {
+            "branch_coverage": "n/a",
+            "line_coverage": "100%",
+            "missed_complexity": "0",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "1",
+            "total_lines": "1",
+            "total_methods": "1"
+        },
+        "Apache Commons Collections.org.apache.commons.collections4.functors.TruePredicate.truePredicate()": {
+            "branch_coverage": "n/a",
+            "line_coverage": "100%",
+            "missed_complexity": "0",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "1",
+            "total_lines": "1",
+            "total_methods": "1"
+        }
+    }
+}

@@ -1,0 +1,85 @@
+{
+    "covered_lines": {
+        "Apache Commons Collections.org.apache.commons.collections4.iterators.BoundedIterator": [
+            "62",
+            "73",
+            "74",
+            "75",
+            "76",
+            "77",
+            "78",
+            "85",
+            "86",
+            "88",
+            "96",
+            "107",
+            "114",
+            "115",
+            "116",
+            "131",
+            "132"
+        ]
+    },
+    "covered_stats": {
+        "Apache Commons Collections.org.apache.commons.collections4.iterators.BoundedIterator.BoundedIterator(Iterator, long, long)": {
+            "branch_coverage": "50%",
+            "line_coverage": "64%",
+            "missed_complexity": "3",
+            "missed_lines": "3",
+            "missed_methods": "0",
+            "total_complexity": "4",
+            "total_lines": "13",
+            "total_methods": "1"
+        },
+        "Apache Commons Collections.org.apache.commons.collections4.iterators.BoundedIterator.checkBounds()": {
+            "branch_coverage": "50%",
+            "line_coverage": "86%",
+            "missed_complexity": "1",
+            "missed_lines": "1",
+            "missed_methods": "0",
+            "total_complexity": "2",
+            "total_lines": "3",
+            "total_methods": "1"
+        },
+        "Apache Commons Collections.org.apache.commons.collections4.iterators.BoundedIterator.hasNext()": {
+            "branch_coverage": "50%",
+            "line_coverage": "77%",
+            "missed_complexity": "1",
+            "missed_lines": "1",
+            "missed_methods": "0",
+            "total_complexity": "2",
+            "total_lines": "3",
+            "total_methods": "1"
+        },
+        "Apache Commons Collections.org.apache.commons.collections4.iterators.BoundedIterator.init()": {
+            "branch_coverage": "75%",
+            "line_coverage": "100%",
+            "missed_complexity": "1",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "3",
+            "total_lines": "4",
+            "total_methods": "1"
+        },
+        "Apache Commons Collections.org.apache.commons.collections4.iterators.BoundedIterator.next()": {
+            "branch_coverage": "50%",
+            "line_coverage": "78%",
+            "missed_complexity": "1",
+            "missed_lines": "1",
+            "missed_methods": "0",
+            "total_complexity": "2",
+            "total_lines": "5",
+            "total_methods": "1"
+        },
+        "Apache Commons Collections.org.apache.commons.collections4.iterators.BoundedIterator.remove()": {
+            "branch_coverage": "50%",
+            "line_coverage": "66%",
+            "missed_complexity": "1",
+            "missed_lines": "1",
+            "missed_methods": "0",
+            "total_complexity": "2",
+            "total_lines": "4",
+            "total_methods": "1"
+        }
+    }
+}

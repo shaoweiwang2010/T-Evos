@@ -1,0 +1,72 @@
+{
+    "covered_lines": {
+        "Apache Commons Collections.org.apache.commons.collections4.PredicateUtils": [
+            "338"
+        ],
+        "Apache Commons Collections.org.apache.commons.collections4.functors.AnyPredicate": [
+            "77",
+            "79"
+        ],
+        "Apache Commons Collections.org.apache.commons.collections4.functors.FalsePredicate": [
+            "36",
+            "47"
+        ],
+        "Apache Commons Collections.org.apache.commons.collections4.functors.FunctorUtils": [
+            "102",
+            "103",
+            "112"
+        ]
+    },
+    "covered_stats": {
+        "Apache Commons Collections.org.apache.commons.collections4.PredicateUtils.anyPredicate(Collection)": {
+            "branch_coverage": "n/a",
+            "line_coverage": "100%",
+            "missed_complexity": "0",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "1",
+            "total_lines": "1",
+            "total_methods": "1"
+        },
+        "Apache Commons Collections.org.apache.commons.collections4.functors.AnyPredicate.anyPredicate(Collection)": {
+            "branch_coverage": "25%",
+            "line_coverage": "38%",
+            "missed_complexity": "2",
+            "missed_lines": "3",
+            "missed_methods": "0",
+            "total_complexity": "3",
+            "total_lines": "6",
+            "total_methods": "1"
+        },
+        "Apache Commons Collections.org.apache.commons.collections4.functors.FalsePredicate.falsePredicate()": {
+            "branch_coverage": "n/a",
+            "line_coverage": "100%",
+            "missed_complexity": "0",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "1",
+            "total_lines": "1",
+            "total_methods": "1"
+        },
+        "Apache Commons Collections.org.apache.commons.collections4.functors.FalsePredicate.static {...}": {
+            "branch_coverage": "n/a",
+            "line_coverage": "100%",
+            "missed_complexity": "0",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "1",
+            "total_lines": "1",
+            "total_methods": "1"
+        },
+        "Apache Commons Collections.org.apache.commons.collections4.functors.FunctorUtils.validate(Collection)": {
+            "branch_coverage": "33%",
+            "line_coverage": "32%",
+            "missed_complexity": "3",
+            "missed_lines": "6",
+            "missed_methods": "0",
+            "total_complexity": "4",
+            "total_lines": "11",
+            "total_methods": "1"
+        }
+    }
+}

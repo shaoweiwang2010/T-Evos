@@ -1,0 +1,56 @@
+{
+    "covered_lines": {
+        "Apache Commons Collections.org.apache.commons.collections4.FactoryUtils": [
+            "84"
+        ],
+        "Apache Commons Collections.org.apache.commons.collections4.functors.ConstantFactory": [
+            "40",
+            "57",
+            "67",
+            "68",
+            "69"
+        ]
+    },
+    "covered_stats": {
+        "Apache Commons Collections.org.apache.commons.collections4.FactoryUtils.constantFactory(Object)": {
+            "branch_coverage": "n/a",
+            "line_coverage": "100%",
+            "missed_complexity": "0",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "1",
+            "total_lines": "1",
+            "total_methods": "1"
+        },
+        "Apache Commons Collections.org.apache.commons.collections4.functors.ConstantFactory.ConstantFactory(Object)": {
+            "branch_coverage": "n/a",
+            "line_coverage": "100%",
+            "missed_complexity": "0",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "1",
+            "total_lines": "3",
+            "total_methods": "1"
+        },
+        "Apache Commons Collections.org.apache.commons.collections4.functors.ConstantFactory.constantFactory(Object)": {
+            "branch_coverage": "50%",
+            "line_coverage": "77%",
+            "missed_complexity": "1",
+            "missed_lines": "1",
+            "missed_methods": "0",
+            "total_complexity": "2",
+            "total_lines": "3",
+            "total_methods": "1"
+        },
+        "Apache Commons Collections.org.apache.commons.collections4.functors.ConstantFactory.static {...}": {
+            "branch_coverage": "n/a",
+            "line_coverage": "100%",
+            "missed_complexity": "0",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "1",
+            "total_lines": "1",
+            "total_methods": "1"
+        }
+    }
+}

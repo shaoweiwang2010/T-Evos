@@ -1,0 +1,290 @@
+{
+    "covered_lines": {
+        "Apache Commons Collections.org.apache.commons.collections4.functors.DefaultEquator": [
+            "37",
+            "52"
+        ],
+        "Apache Commons Collections.org.apache.commons.collections4.sequence.DeleteCommand": [
+            "42",
+            "43"
+        ],
+        "Apache Commons Collections.org.apache.commons.collections4.sequence.EditCommand": [
+            "59",
+            "60",
+            "61"
+        ],
+        "Apache Commons Collections.org.apache.commons.collections4.sequence.EditScript": [
+            "60",
+            "61",
+            "62",
+            "63",
+            "64",
+            "72",
+            "73",
+            "74",
+            "82",
+            "83",
+            "84",
+            "92",
+            "93",
+            "94",
+            "130"
+        ],
+        "Apache Commons Collections.org.apache.commons.collections4.sequence.InsertCommand": [
+            "42",
+            "43"
+        ],
+        "Apache Commons Collections.org.apache.commons.collections4.sequence.KeepCommand": [
+            "44",
+            "45"
+        ],
+        "Apache Commons Collections.org.apache.commons.collections4.sequence.SequencesComparator": [
+            "89",
+            "90",
+            "105",
+            "106",
+            "107",
+            "108",
+            "110",
+            "111",
+            "112",
+            "113",
+            "129",
+            "130",
+            "131",
+            "144",
+            "148",
+            "150",
+            "172",
+            "173",
+            "175",
+            "178",
+            "179",
+            "181",
+            "182",
+            "189",
+            "191",
+            "193",
+            "196",
+            "197",
+            "200",
+            "201",
+            "206",
+            "214",
+            "217",
+            "219",
+            "222",
+            "223",
+            "226",
+            "227",
+            "232",
+            "255",
+            "261",
+            "262",
+            "265",
+            "266",
+            "267",
+            "270",
+            "271",
+            "273",
+            "274",
+            "279",
+            "281",
+            "282",
+            "285",
+            "287",
+            "288",
+            "291",
+            "315",
+            "316",
+            "317",
+            "318",
+            "319",
+            "327",
+            "336",
+            "345"
+        ]
+    },
+    "covered_stats": {
+        "Apache Commons Collections.org.apache.commons.collections4.functors.DefaultEquator.defaultEquator()": {
+            "branch_coverage": "n/a",
+            "line_coverage": "100%",
+            "missed_complexity": "0",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "1",
+            "total_lines": "1",
+            "total_methods": "1"
+        },
+        "Apache Commons Collections.org.apache.commons.collections4.functors.DefaultEquator.equate(Object, Object)": {
+            "branch_coverage": "66%",
+            "line_coverage": "100%",
+            "missed_complexity": "2",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "4",
+            "total_lines": "1",
+            "total_methods": "1"
+        },
+        "Apache Commons Collections.org.apache.commons.collections4.functors.DefaultEquator.static {...}": {
+            "branch_coverage": "n/a",
+            "line_coverage": "100%",
+            "missed_complexity": "0",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "1",
+            "total_lines": "1",
+            "total_methods": "1"
+        },
+        "Apache Commons Collections.org.apache.commons.collections4.sequence.DeleteCommand.DeleteCommand(Object)": {
+            "branch_coverage": "n/a",
+            "line_coverage": "100%",
+            "missed_complexity": "0",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "1",
+            "total_lines": "2",
+            "total_methods": "1"
+        },
+        "Apache Commons Collections.org.apache.commons.collections4.sequence.EditCommand.EditCommand(Object)": {
+            "branch_coverage": "n/a",
+            "line_coverage": "100%",
+            "missed_complexity": "0",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "1",
+            "total_lines": "3",
+            "total_methods": "1"
+        },
+        "Apache Commons Collections.org.apache.commons.collections4.sequence.EditScript.EditScript()": {
+            "branch_coverage": "n/a",
+            "line_coverage": "100%",
+            "missed_complexity": "0",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "1",
+            "total_lines": "5",
+            "total_methods": "1"
+        },
+        "Apache Commons Collections.org.apache.commons.collections4.sequence.EditScript.append(DeleteCommand)": {
+            "branch_coverage": "n/a",
+            "line_coverage": "100%",
+            "missed_complexity": "0",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "1",
+            "total_lines": "3",
+            "total_methods": "1"
+        },
+        "Apache Commons Collections.org.apache.commons.collections4.sequence.EditScript.append(InsertCommand)": {
+            "branch_coverage": "n/a",
+            "line_coverage": "100%",
+            "missed_complexity": "0",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "1",
+            "total_lines": "3",
+            "total_methods": "1"
+        },
+        "Apache Commons Collections.org.apache.commons.collections4.sequence.EditScript.append(KeepCommand)": {
+            "branch_coverage": "n/a",
+            "line_coverage": "100%",
+            "missed_complexity": "0",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "1",
+            "total_lines": "3",
+            "total_methods": "1"
+        },
+        "Apache Commons Collections.org.apache.commons.collections4.sequence.EditScript.getModifications()": {
+            "branch_coverage": "n/a",
+            "line_coverage": "100%",
+            "missed_complexity": "0",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "1",
+            "total_lines": "1",
+            "total_methods": "1"
+        },
+        "Apache Commons Collections.org.apache.commons.collections4.sequence.InsertCommand.InsertCommand(Object)": {
+            "branch_coverage": "n/a",
+            "line_coverage": "100%",
+            "missed_complexity": "0",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "1",
+            "total_lines": "2",
+            "total_methods": "1"
+        },
+        "Apache Commons Collections.org.apache.commons.collections4.sequence.KeepCommand.KeepCommand(Object)": {
+            "branch_coverage": "n/a",
+            "line_coverage": "100%",
+            "missed_complexity": "0",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "1",
+            "total_lines": "2",
+            "total_methods": "1"
+        },
+        "Apache Commons Collections.org.apache.commons.collections4.sequence.SequencesComparator.SequencesComparator(List, List)": {
+            "branch_coverage": "n/a",
+            "line_coverage": "100%",
+            "missed_complexity": "0",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "1",
+            "total_lines": "2",
+            "total_methods": "1"
+        },
+        "Apache Commons Collections.org.apache.commons.collections4.sequence.SequencesComparator.SequencesComparator(List, List, Equator)": {
+            "branch_coverage": "n/a",
+            "line_coverage": "100%",
+            "missed_complexity": "0",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "1",
+            "total_lines": "8",
+            "total_methods": "1"
+        },
+        "Apache Commons Collections.org.apache.commons.collections4.sequence.SequencesComparator.buildScript(int, int, int, int, EditScript)": {
+            "branch_coverage": "87%",
+            "line_coverage": "100%",
+            "missed_complexity": "3",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "13",
+            "total_lines": "24",
+            "total_methods": "1"
+        },
+        "Apache Commons Collections.org.apache.commons.collections4.sequence.SequencesComparator.buildSnake(int, int, int, int)": {
+            "branch_coverage": "100%",
+            "line_coverage": "100%",
+            "missed_complexity": "0",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "4",
+            "total_lines": "5",
+            "total_methods": "1"
+        },
+        "Apache Commons Collections.org.apache.commons.collections4.sequence.SequencesComparator.getMiddleSnake(int, int, int, int)": {
+            "branch_coverage": "98%",
+            "line_coverage": "98%",
+            "missed_complexity": "1",
+            "missed_lines": "1",
+            "missed_methods": "0",
+            "total_complexity": "27",
+            "total_lines": "38",
+            "total_methods": "1"
+        },
+        "Apache Commons Collections.org.apache.commons.collections4.sequence.SequencesComparator.getScript()": {
+            "branch_coverage": "n/a",
+            "line_coverage": "100%",
+            "missed_complexity": "0",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "1",
+            "total_lines": "3",
+            "total_methods": "1"
+        }
+    }
+}

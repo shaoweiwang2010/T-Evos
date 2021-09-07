@@ -1,0 +1,35 @@
+{
+    "covered_lines": {
+        "Apache Commons Codec.org.apache.commons.codec.net.QuotedPrintableCodec": [
+            "80",
+            "101",
+            "104",
+            "106",
+            "107",
+            "108",
+            "353"
+        ]
+    },
+    "covered_stats": {
+        "Apache Commons Codec.org.apache.commons.codec.net.QuotedPrintableCodec.decodeQuotedPrintable(byte[])": {
+            "branch_coverage": "8%",
+            "line_coverage": "5%",
+            "missed_complexity": "6",
+            "missed_lines": "15",
+            "missed_methods": "0",
+            "total_complexity": "7",
+            "total_lines": "17",
+            "total_methods": "1"
+        },
+        "Apache Commons Codec.org.apache.commons.codec.net.QuotedPrintableCodec.static {...}": {
+            "branch_coverage": "100%",
+            "line_coverage": "100%",
+            "missed_complexity": "0",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "3",
+            "total_lines": "8",
+            "total_methods": "1"
+        }
+    }
+}

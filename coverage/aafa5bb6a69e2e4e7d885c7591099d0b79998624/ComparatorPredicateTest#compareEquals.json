@@ -1,0 +1,61 @@
+{
+    "covered_lines": {
+        "Apache Commons Collections.org.apache.commons.collections4.functors.ComparatorPredicate": [
+            "83",
+            "84",
+            "108",
+            "129",
+            "141",
+            "142",
+            "143",
+            "144",
+            "145",
+            "167",
+            "168",
+            "172",
+            "189"
+        ]
+    },
+    "covered_stats": {
+        "Apache Commons Collections.org.apache.commons.collections4.functors.ComparatorPredicate.ComparatorPredicate(Object, Comparator, ComparatorPredicate.Criterion)": {
+            "branch_coverage": "n/a",
+            "line_coverage": "100%",
+            "missed_complexity": "0",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "1",
+            "total_lines": "5",
+            "total_methods": "1"
+        },
+        "Apache Commons Collections.org.apache.commons.collections4.functors.ComparatorPredicate.comparatorPredicate(Object, Comparator)": {
+            "branch_coverage": "n/a",
+            "line_coverage": "100%",
+            "missed_complexity": "0",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "1",
+            "total_lines": "1",
+            "total_methods": "1"
+        },
+        "Apache Commons Collections.org.apache.commons.collections4.functors.ComparatorPredicate.comparatorPredicate(Object, Comparator, ComparatorPredicate.Criterion)": {
+            "branch_coverage": "50%",
+            "line_coverage": "52%",
+            "missed_complexity": "2",
+            "missed_lines": "2",
+            "missed_methods": "0",
+            "total_complexity": "3",
+            "total_lines": "5",
+            "total_methods": "1"
+        },
+        "Apache Commons Collections.org.apache.commons.collections4.functors.ComparatorPredicate.evaluate(Object)": {
+            "branch_coverage": "18%",
+            "line_coverage": "35%",
+            "missed_complexity": "9",
+            "missed_lines": "9",
+            "missed_methods": "0",
+            "total_complexity": "11",
+            "total_lines": "15",
+            "total_methods": "1"
+        }
+    }
+}

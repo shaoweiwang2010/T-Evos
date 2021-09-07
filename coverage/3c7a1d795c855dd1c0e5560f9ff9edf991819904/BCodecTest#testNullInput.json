@@ -1,0 +1,86 @@
+{
+    "covered_lines": {
+        "Apache Commons Codec.org.apache.commons.codec.Charsets": [
+            "99",
+            "110",
+            "122",
+            "133",
+            "144",
+            "155"
+        ],
+        "Apache Commons Codec.org.apache.commons.codec.net.BCodec": [
+            "56",
+            "57",
+            "68",
+            "69",
+            "70",
+            "94",
+            "102"
+        ],
+        "Apache Commons Codec.org.apache.commons.codec.net.RFC1522Codec": [
+            "42"
+        ]
+    },
+    "covered_stats": {
+        "Apache Commons Codec.org.apache.commons.codec.Charsets.static {...}": {
+            "branch_coverage": "n/a",
+            "line_coverage": "100%",
+            "missed_complexity": "0",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "1",
+            "total_lines": "6",
+            "total_methods": "1"
+        },
+        "Apache Commons Codec.org.apache.commons.codec.net.BCodec.BCodec()": {
+            "branch_coverage": "n/a",
+            "line_coverage": "100%",
+            "missed_complexity": "0",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "1",
+            "total_lines": "2",
+            "total_methods": "1"
+        },
+        "Apache Commons Codec.org.apache.commons.codec.net.BCodec.BCodec(Charset)": {
+            "branch_coverage": "n/a",
+            "line_coverage": "100%",
+            "missed_complexity": "0",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "1",
+            "total_lines": "3",
+            "total_methods": "1"
+        },
+        "Apache Commons Codec.org.apache.commons.codec.net.BCodec.doDecoding(byte[])": {
+            "branch_coverage": "50%",
+            "line_coverage": "57%",
+            "missed_complexity": "1",
+            "missed_lines": "1",
+            "missed_methods": "0",
+            "total_complexity": "2",
+            "total_lines": "3",
+            "total_methods": "1"
+        },
+        "Apache Commons Codec.org.apache.commons.codec.net.BCodec.doEncoding(byte[])": {
+            "branch_coverage": "50%",
+            "line_coverage": "57%",
+            "missed_complexity": "1",
+            "missed_lines": "1",
+            "missed_methods": "0",
+            "total_complexity": "2",
+            "total_lines": "3",
+            "total_methods": "1"
+        },
+        "Apache Commons Codec.org.apache.commons.codec.net.RFC1522Codec.RFC1522Codec()": {
+            "branch_coverage": "n/a",
+            "line_coverage": "100%",
+            "missed_complexity": "0",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "1",
+            "total_lines": "1",
+            "total_methods": "1"
+        }
+    }
+}

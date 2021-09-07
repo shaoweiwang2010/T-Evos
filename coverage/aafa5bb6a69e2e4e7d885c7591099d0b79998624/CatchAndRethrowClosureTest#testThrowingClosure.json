@@ -1,0 +1,50 @@
+{
+    "covered_lines": {
+        "Apache Commons Collections.org.apache.commons.collections4.FunctorException": [
+            "57",
+            "58"
+        ],
+        "Apache Commons Collections.org.apache.commons.collections4.functors.CatchAndRethrowClosure": [
+            "49",
+            "60",
+            "61",
+            "62",
+            "63",
+            "64",
+            "65",
+            "66"
+        ]
+    },
+    "covered_stats": {
+        "Apache Commons Collections.org.apache.commons.collections4.FunctorException.FunctorException(Throwable)": {
+            "branch_coverage": "n/a",
+            "line_coverage": "100%",
+            "missed_complexity": "0",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "1",
+            "total_lines": "2",
+            "total_methods": "1"
+        },
+        "Apache Commons Collections.org.apache.commons.collections4.functors.CatchAndRethrowClosure.CatchAndRethrowClosure()": {
+            "branch_coverage": "n/a",
+            "line_coverage": "100%",
+            "missed_complexity": "0",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "1",
+            "total_lines": "1",
+            "total_methods": "1"
+        },
+        "Apache Commons Collections.org.apache.commons.collections4.functors.CatchAndRethrowClosure.execute(Object)": {
+            "branch_coverage": "n/a",
+            "line_coverage": "100%",
+            "missed_complexity": "0",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "1",
+            "total_lines": "7",
+            "total_methods": "1"
+        }
+    }
+}

@@ -1,0 +1,48 @@
+{
+    "covered_lines": {
+        "Apache Commons Codec.org.apache.commons.codec.digest.UnixCrypt": [
+            "42",
+            "48",
+            "52",
+            "53",
+            "55",
+            "58",
+            "117",
+            "200",
+            "201",
+            "202",
+            "203",
+            "208",
+            "209",
+            "210",
+            "211",
+            "212",
+            "213",
+            "214",
+            "215",
+            "217"
+        ]
+    },
+    "covered_stats": {
+        "Apache Commons Codec.org.apache.commons.codec.digest.UnixCrypt.crypt(byte[], String)": {
+            "branch_coverage": "16%",
+            "line_coverage": "39%",
+            "missed_complexity": "8",
+            "missed_lines": "25",
+            "missed_methods": "0",
+            "total_complexity": "10",
+            "total_lines": "42",
+            "total_methods": "1"
+        },
+        "Apache Commons Codec.org.apache.commons.codec.digest.UnixCrypt.static {...}": {
+            "branch_coverage": "n/a",
+            "line_coverage": "100%",
+            "missed_complexity": "0",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "1",
+            "total_lines": "7",
+            "total_methods": "1"
+        }
+    }
+}

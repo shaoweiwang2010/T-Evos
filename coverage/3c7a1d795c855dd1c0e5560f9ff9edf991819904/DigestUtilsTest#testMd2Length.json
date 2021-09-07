@@ -1,0 +1,83 @@
+{
+    "covered_lines": {
+        "Apache Commons Codec.org.apache.commons.codec.Charsets": [
+            "99",
+            "110",
+            "122",
+            "133",
+            "144",
+            "155"
+        ],
+        "Apache Commons Codec.org.apache.commons.codec.binary.StringUtils": [
+            "97",
+            "271"
+        ],
+        "Apache Commons Codec.org.apache.commons.codec.digest.DigestUtils": [
+            "85",
+            "102",
+            "218"
+        ]
+    },
+    "covered_stats": {
+        "Apache Commons Codec.org.apache.commons.codec.Charsets.static {...}": {
+            "branch_coverage": "n/a",
+            "line_coverage": "100%",
+            "missed_complexity": "0",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "1",
+            "total_lines": "6",
+            "total_methods": "1"
+        },
+        "Apache Commons Codec.org.apache.commons.codec.binary.StringUtils.getBytes(String, Charset)": {
+            "branch_coverage": "50%",
+            "line_coverage": "75%",
+            "missed_complexity": "1",
+            "missed_lines": "1",
+            "missed_methods": "0",
+            "total_complexity": "2",
+            "total_lines": "3",
+            "total_methods": "1"
+        },
+        "Apache Commons Codec.org.apache.commons.codec.binary.StringUtils.getBytesUtf8(String)": {
+            "branch_coverage": "n/a",
+            "line_coverage": "100%",
+            "missed_complexity": "0",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "1",
+            "total_lines": "1",
+            "total_methods": "1"
+        },
+        "Apache Commons Codec.org.apache.commons.codec.digest.DigestUtils.getDigest(String)": {
+            "branch_coverage": "n/a",
+            "line_coverage": "33%",
+            "missed_complexity": "0",
+            "missed_lines": "2",
+            "missed_methods": "0",
+            "total_complexity": "1",
+            "total_lines": "3",
+            "total_methods": "1"
+        },
+        "Apache Commons Codec.org.apache.commons.codec.digest.DigestUtils.getMd2Digest()": {
+            "branch_coverage": "n/a",
+            "line_coverage": "100%",
+            "missed_complexity": "0",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "1",
+            "total_lines": "1",
+            "total_methods": "1"
+        },
+        "Apache Commons Codec.org.apache.commons.codec.digest.DigestUtils.md2(byte[])": {
+            "branch_coverage": "n/a",
+            "line_coverage": "100%",
+            "missed_complexity": "0",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "1",
+            "total_lines": "1",
+            "total_methods": "1"
+        }
+    }
+}

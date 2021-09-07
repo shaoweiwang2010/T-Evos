@@ -1,0 +1,178 @@
+{
+    "covered_lines": {
+        "Apache Commons Collections.org.apache.commons.collections4.ClosureUtils": [
+            "99",
+            "165"
+        ],
+        "Apache Commons Collections.org.apache.commons.collections4.CollectionUtils": [
+            "183",
+            "184",
+            "738",
+            "740",
+            "742",
+            "744",
+            "746"
+        ],
+        "Apache Commons Collections.org.apache.commons.collections4.collection.AbstractCollectionDecorator": [
+            "65",
+            "69",
+            "70"
+        ],
+        "Apache Commons Collections.org.apache.commons.collections4.collection.UnmodifiableCollection": [
+            "60",
+            "72",
+            "73"
+        ],
+        "Apache Commons Collections.org.apache.commons.collections4.functors.InvokerTransformer": [
+            "57",
+            "92",
+            "93",
+            "94",
+            "95",
+            "96",
+            "127",
+            "128",
+            "129"
+        ],
+        "Apache Commons Collections.org.apache.commons.collections4.functors.TransformerClosure": [
+            "52",
+            "62",
+            "63",
+            "64",
+            "72",
+            "73"
+        ]
+    },
+    "covered_stats": {
+        "Apache Commons Collections.org.apache.commons.collections4.ClosureUtils.asClosure(Transformer)": {
+            "branch_coverage": "n/a",
+            "line_coverage": "100%",
+            "missed_complexity": "0",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "1",
+            "total_lines": "1",
+            "total_methods": "1"
+        },
+        "Apache Commons Collections.org.apache.commons.collections4.ClosureUtils.invokerClosure(String)": {
+            "branch_coverage": "n/a",
+            "line_coverage": "100%",
+            "missed_complexity": "0",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "1",
+            "total_lines": "1",
+            "total_methods": "1"
+        },
+        "Apache Commons Collections.org.apache.commons.collections4.CollectionUtils.forAllButLastDo(Iterator, Closure)": {
+            "branch_coverage": "87%",
+            "line_coverage": "100%",
+            "missed_complexity": "1",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "5",
+            "total_lines": "8",
+            "total_methods": "1"
+        },
+        "Apache Commons Collections.org.apache.commons.collections4.CollectionUtils.static {...}": {
+            "branch_coverage": "n/a",
+            "line_coverage": "100%",
+            "missed_complexity": "0",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "1",
+            "total_lines": "2",
+            "total_methods": "1"
+        },
+        "Apache Commons Collections.org.apache.commons.collections4.collection.AbstractCollectionDecorator.AbstractCollectionDecorator(Collection)": {
+            "branch_coverage": "50%",
+            "line_coverage": "61%",
+            "missed_complexity": "1",
+            "missed_lines": "1",
+            "missed_methods": "0",
+            "total_complexity": "2",
+            "total_lines": "5",
+            "total_methods": "1"
+        },
+        "Apache Commons Collections.org.apache.commons.collections4.collection.UnmodifiableCollection.UnmodifiableCollection(Collection)": {
+            "branch_coverage": "n/a",
+            "line_coverage": "100%",
+            "missed_complexity": "0",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "1",
+            "total_lines": "2",
+            "total_methods": "1"
+        },
+        "Apache Commons Collections.org.apache.commons.collections4.collection.UnmodifiableCollection.unmodifiableCollection(Collection)": {
+            "branch_coverage": "50%",
+            "line_coverage": "66%",
+            "missed_complexity": "1",
+            "missed_lines": "2",
+            "missed_methods": "0",
+            "total_complexity": "2",
+            "total_lines": "4",
+            "total_methods": "1"
+        },
+        "Apache Commons Collections.org.apache.commons.collections4.functors.InvokerTransformer.InvokerTransformer(String)": {
+            "branch_coverage": "n/a",
+            "line_coverage": "100%",
+            "missed_complexity": "0",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "1",
+            "total_lines": "5",
+            "total_methods": "1"
+        },
+        "Apache Commons Collections.org.apache.commons.collections4.functors.InvokerTransformer.invokerTransformer(String)": {
+            "branch_coverage": "50%",
+            "line_coverage": "58%",
+            "missed_complexity": "1",
+            "missed_lines": "1",
+            "missed_methods": "0",
+            "total_complexity": "2",
+            "total_lines": "3",
+            "total_methods": "1"
+        },
+        "Apache Commons Collections.org.apache.commons.collections4.functors.InvokerTransformer.transform(Object)": {
+            "branch_coverage": "50%",
+            "line_coverage": "21%",
+            "missed_complexity": "1",
+            "missed_lines": "10",
+            "missed_methods": "0",
+            "total_complexity": "2",
+            "total_lines": "14",
+            "total_methods": "1"
+        },
+        "Apache Commons Collections.org.apache.commons.collections4.functors.TransformerClosure.TransformerClosure(Transformer)": {
+            "branch_coverage": "n/a",
+            "line_coverage": "100%",
+            "missed_complexity": "0",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "1",
+            "total_lines": "3",
+            "total_methods": "1"
+        },
+        "Apache Commons Collections.org.apache.commons.collections4.functors.TransformerClosure.execute(Object)": {
+            "branch_coverage": "n/a",
+            "line_coverage": "100%",
+            "missed_complexity": "0",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "1",
+            "total_lines": "2",
+            "total_methods": "1"
+        },
+        "Apache Commons Collections.org.apache.commons.collections4.functors.TransformerClosure.transformerClosure(Transformer)": {
+            "branch_coverage": "50%",
+            "line_coverage": "77%",
+            "missed_complexity": "1",
+            "missed_lines": "1",
+            "missed_methods": "0",
+            "total_complexity": "2",
+            "total_lines": "3",
+            "total_methods": "1"
+        }
+    }
+}

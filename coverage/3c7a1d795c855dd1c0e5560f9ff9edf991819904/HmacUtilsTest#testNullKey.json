@@ -1,0 +1,61 @@
+{
+    "covered_lines": {
+        "Apache Commons Codec.org.apache.commons.codec.digest.HmacAlgorithms": [
+            "33",
+            "41",
+            "49",
+            "57",
+            "65",
+            "73",
+            "77",
+            "78",
+            "79",
+            "91"
+        ],
+        "Apache Commons Codec.org.apache.commons.codec.digest.HmacUtils": [
+            "177"
+        ]
+    },
+    "covered_stats": {
+        "Apache Commons Codec.org.apache.commons.codec.digest.HmacAlgorithms.HmacAlgorithms(String, int, String)": {
+            "branch_coverage": "n/a",
+            "line_coverage": "100%",
+            "missed_complexity": "0",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "1",
+            "total_lines": "3",
+            "total_methods": "1"
+        },
+        "Apache Commons Codec.org.apache.commons.codec.digest.HmacAlgorithms.static {...}": {
+            "branch_coverage": "n/a",
+            "line_coverage": "100%",
+            "missed_complexity": "0",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "1",
+            "total_lines": "6",
+            "total_methods": "1"
+        },
+        "Apache Commons Codec.org.apache.commons.codec.digest.HmacAlgorithms.toString()": {
+            "branch_coverage": "n/a",
+            "line_coverage": "100%",
+            "missed_complexity": "0",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "1",
+            "total_lines": "1",
+            "total_methods": "1"
+        },
+        "Apache Commons Codec.org.apache.commons.codec.digest.HmacUtils.getInitializedMac(String, byte[])": {
+            "branch_coverage": "50%",
+            "line_coverage": "21%",
+            "missed_complexity": "1",
+            "missed_lines": "8",
+            "missed_methods": "0",
+            "total_complexity": "2",
+            "total_lines": "10",
+            "total_methods": "1"
+        }
+    }
+}

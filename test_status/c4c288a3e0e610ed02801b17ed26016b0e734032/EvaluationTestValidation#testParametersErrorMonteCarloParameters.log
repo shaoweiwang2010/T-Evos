@@ -1,0 +1,216 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------< org.apache.commons:commons-math4 >------------------
+[INFO] Building Apache Commons Math 4.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.3.1:enforce (enforce-maven-3) @ commons-math4 ---
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.7:parse-version (parse-version) @ commons-math4 ---
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.5:prepare-agent (default) @ commons-math4 ---
+[INFO] argLine set to -javaagent:/home/ubuntu/.m2/repository/org/jacoco/org.jacoco.agent/0.8.5/org.jacoco.agent-0.8.5-runtime.jar=destfile=/home/ubuntu/anrchen/defects4j_projects/commons-math_cluster2/target/jacoco.exec,append=false
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.7:run (javadoc.resources) @ commons-math4 ---
+[INFO] Executing tasks
+
+main:
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ commons-math4 ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.3:create (default) @ commons-math4 ---
+[INFO] Executing: /bin/sh -c cd /home/ubuntu/anrchen/defects4j_projects/commons-math_cluster2 && git rev-parse --verify HEAD
+[INFO] Working directory: /home/ubuntu/anrchen/defects4j_projects/commons-math_cluster2
+[INFO] Storing buildNumber: null at timestamp: 2021-01-10 12:29:02+0000
+[WARNING] Cannot get the branch information from the git repository: 
+Detecting the current branch failed: fatal: ref HEAD is not a symbolic ref
+
+[INFO] Executing: /bin/sh -c cd /home/ubuntu/anrchen/defects4j_projects/commons-math_cluster2 && git rev-parse --verify HEAD
+[INFO] Working directory: /home/ubuntu/anrchen/defects4j_projects/commons-math_cluster2
+[INFO] Storing buildScmBranch: UNKNOWN
+[INFO] 
+[INFO] --- maven-jgit-buildnumber-plugin:1.2.10:extract-buildnumber (default) @ commons-math4 ---
+[INFO] Git info extracted, revision: 'c4c288a', branch: '', tag: '', commitsCount: '6100', commitDate: '2016-05-23', buildnumber: 'UNNAMED.6100.c4c288a'
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ commons-math4 ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.3:compile (default-compile) @ commons-math4 ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 911 source files to /home/ubuntu/anrchen/defects4j_projects/commons-math_cluster2/target/classes
+[INFO] /home/ubuntu/anrchen/defects4j_projects/commons-math_cluster2/src/main/java/org/apache/commons/math4/optim/BaseOptimizer.java: Some input files use or override a deprecated API.
+[INFO] /home/ubuntu/anrchen/defects4j_projects/commons-math_cluster2/src/main/java/org/apache/commons/math4/optim/BaseOptimizer.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- maven-bundle-plugin:2.5.3:manifest (bundle-manifest) @ commons-math4 ---
+[INFO] 
+[INFO] --- animal-sniffer-maven-plugin:1.14:check (checkAPIcompatibility) @ commons-math4 ---
+[INFO] Checking unresolved references to org.codehaus.mojo.signature:java17:1.0
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ commons-math4 ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 38 resources
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.3:testCompile (default-testCompile) @ commons-math4 ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.5:prepare-agent (prepare-agent) @ commons-math4 ---
+[INFO] argLine set to -javaagent:/home/ubuntu/.m2/repository/org/jacoco/org.jacoco.agent/0.8.5/org.jacoco.agent-0.8.5-runtime.jar=destfile=/home/ubuntu/anrchen/defects4j_projects/commons-math_cluster2/target/jacoco.exec,append=false
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.18.1:test (default-test) @ commons-math4 ---
+[INFO] Surefire report directory: /home/ubuntu/anrchen/defects4j_projects/commons-math_cluster2/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.apache.commons.math4.fitting.leastsquares.EvaluationTestValidation
++1.2345378446e+02 -8.0723354412e+01   4.97110345e-01
+
++1.2344924079e+02 -4.7541433872e+01   1.40883751e+00
++1.2345093059e+02 -6.0347325404e+01   8.54105460e-01
++1.2345262040e+02 -7.3153216936e+01   5.58592697e-01
++1.2345262040e+02 -6.0347325404e+01   1.38085932e+00
++1.2345431020e+02 -8.5959108468e+01   5.22299225e-01
++1.2345431020e+02 -7.3153216936e+01   1.21495620e+00
++1.2345600000e+02 -9.8765000000e+01   7.45225044e-01
++1.2345600000e+02 -8.5959108468e+01   1.30827238e+00
++1.2345768980e+02 -1.1157089153e+02   1.22737015e+00
+
++1.2344755099e+02 -1.6279445766e+02   9.03284687e+01
++1.2344755099e+02 -1.4998856613e+02   7.33183578e+01
++1.2344755099e+02 -1.3718267460e+02   5.81303675e+01
++1.2344755099e+02 -1.2437678306e+02   4.47644980e+01
++1.2344755099e+02 -1.1157089153e+02   3.32207490e+01
++1.2344755099e+02 -9.8765000000e+01   2.34991207e+01
++1.2344755099e+02 -8.5959108468e+01   1.55996131e+01
++1.2344755099e+02 -7.3153216936e+01   9.52222604e+00
++1.2344755099e+02 -6.0347325404e+01   5.26695967e+00
++1.2344755099e+02 -4.7541433872e+01   2.83381394e+00
++1.2344924079e+02 -1.6279445766e+02   7.36708932e+01
++1.2344924079e+02 -1.4998856613e+02   5.83532934e+01
++1.2344924079e+02 -1.3718267460e+02   4.48578141e+01
++1.2344924079e+02 -1.2437678306e+02   3.31844555e+01
++1.2344924079e+02 -1.1157089153e+02   2.33332176e+01
++1.2344924079e+02 -9.8765000000e+01   1.53041003e+01
++1.2344924079e+02 -8.5959108468e+01   9.09710363e+00
++1.2344924079e+02 -7.3153216936e+01   4.71222761e+00
++1.2344924079e+02 -6.0347325404e+01   2.14947224e+00
++1.2345093059e+02 -1.6279445766e+02   5.88354385e+01
++1.2345093059e+02 -1.4998856613e+02   4.52103496e+01
++1.2345093059e+02 -1.3718267460e+02   3.34073814e+01
++1.2345093059e+02 -1.2437678306e+02   2.34265338e+01
++1.2345093059e+02 -1.1157089153e+02   1.52678068e+01
++1.2345093059e+02 -9.8765000000e+01   8.93120051e+00
++1.2345093059e+02 -8.5959108468e+01   4.41671485e+00
++1.2345093059e+02 -7.3153216936e+01   1.72434983e+00
++1.2345093059e+02 -4.7541433872e+01   1.80598173e+00
++1.2345262040e+02 -1.6279445766e+02   4.58221043e+01
++1.2345262040e+02 -1.4998856613e+02   3.38895265e+01
++1.2345262040e+02 -1.3718267460e+02   2.37790692e+01
++1.2345262040e+02 -1.2437678306e+02   1.54907326e+01
++1.2345262040e+02 -1.1157089153e+02   9.02451669e+00
++1.2345262040e+02 -9.8765000000e+01   4.38042138e+00
++1.2345262040e+02 -8.5959108468e+01   1.55844672e+00
++1.2345262040e+02 -4.7541433872e+01   4.02524659e+00
++1.2345431020e+02 -1.6279445766e+02   3.46308909e+01
++1.2345431020e+02 -1.4998856613e+02   2.43908240e+01
++1.2345431020e+02 -1.3718267460e+02   1.59728777e+01
++1.2345431020e+02 -1.2437678306e+02   9.37705215e+00
++1.2345431020e+02 -1.1157089153e+02   4.60334720e+00
++1.2345431020e+02 -9.8765000000e+01   1.65176289e+00
++1.2345431020e+02 -6.0347325404e+01   3.72973383e+00
++1.2345431020e+02 -4.7541433872e+01   8.06663209e+00
++1.2345600000e+02 -1.6279445766e+02   2.52617980e+01
++1.2345600000e+02 -1.4998856613e+02   1.67142421e+01
++1.2345600000e+02 -1.3718267460e+02   9.98880690e+00
++1.2345600000e+02 -1.2437678306e+02   5.08549231e+00
++1.2345600000e+02 -1.1157089153e+02   2.00429835e+00
++1.2345600000e+02 -7.3153216936e+01   3.69344035e+00
++1.2345600000e+02 -6.0347325404e+01   7.90072898e+00
++1.2345600000e+02 -4.7541433872e+01   1.39301382e+01
++1.2345768980e+02 -1.6279445766e+02   1.77148258e+01
++1.2345768980e+02 -1.4998856613e+02   1.08597809e+01
++1.2345768980e+02 -1.3718267460e+02   5.82685671e+00
++1.2345768980e+02 -1.2437678306e+02   2.61605311e+00
++1.2345768980e+02 -9.8765000000e+01   1.66080784e+00
++1.2345768980e+02 -8.5959108468e+01   3.91636617e+00
++1.2345768980e+02 -7.3153216936e+01   7.99404515e+00
++1.2345768980e+02 -6.0347325404e+01   1.38938448e+01
++1.2345768980e+02 -4.7541433872e+01   2.16157650e+01
++1.2345937960e+02 -1.6279445766e+02   1.19899743e+01
++1.2345937960e+02 -1.4998856613e+02   6.82744040e+00
++1.2345937960e+02 -1.3718267460e+02   3.48702715e+00
++1.2345937960e+02 -1.2437678306e+02   1.96873455e+00
++1.2345937960e+02 -1.1157089153e+02   2.27256260e+00
++1.2345937960e+02 -9.8765000000e+01   4.39851128e+00
++1.2345937960e+02 -8.5959108468e+01   8.34658061e+00
++1.2345937960e+02 -7.3153216936e+01   1.41167706e+01
++1.2345937960e+02 -6.0347325404e+01   2.17090812e+01
++1.2345937960e+02 -4.7541433872e+01   3.11235125e+01
++1.2346106941e+02 -1.6279445766e+02   8.08724338e+00
++1.2346106941e+02 -1.4998856613e+02   4.61722049e+00
++1.2346106941e+02 -1.3718267460e+02   2.96931824e+00
++1.2346106941e+02 -1.2437678306e+02   3.14353664e+00
++1.2346106941e+02 -1.1157089153e+02   5.13987568e+00
++1.2346106941e+02 -9.8765000000e+01   8.95833537e+00
++1.2346106941e+02 -8.5959108468e+01   1.45989157e+01
++1.2346106941e+02 -7.3153216936e+01   2.20616167e+01
++1.2346106941e+02 -6.0347325404e+01   3.13464383e+01
++1.2346106941e+02 -4.7541433872e+01   4.24533805e+01
++1.2346275921e+02 -1.6279445766e+02   6.00663312e+00
++1.2346275921e+02 -1.4998856613e+02   4.22912123e+00
++1.2346275921e+02 -1.3718267460e+02   4.27372998e+00
++1.2346275921e+02 -1.2437678306e+02   6.14045937e+00
++1.2346275921e+02 -1.1157089153e+02   9.82930941e+00
++1.2346275921e+02 -9.8765000000e+01   1.53402801e+01
++1.2346275921e+02 -8.5959108468e+01   2.26733714e+01
++1.2346275921e+02 -7.3153216936e+01   3.18285834e+01
++1.2346275921e+02 -6.0347325404e+01   4.28059160e+01
++1.2346275921e+02 -4.7541433872e+01   5.56053693e+01
+
+# sigma={0.0016898023; 12.805891532}
+# 91 sets filtered out
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.754 sec - in org.apache.commons.math4.fitting.leastsquares.EvaluationTestValidation
+
+Results :
+
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.5:report (report) @ commons-math4 ---
+[INFO] Loading execution data file /home/ubuntu/anrchen/defects4j_projects/commons-math_cluster2/target/jacoco.exec
+[INFO] Analyzed bundle 'Apache Commons Math' with 983 classes
+[INFO] 
+[INFO] --- maven-jar-plugin:2.6:jar (default-jar) @ commons-math4 ---
+[INFO] Building jar: /home/ubuntu/anrchen/defects4j_projects/commons-math_cluster2/target/commons-math4-4.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- maven-site-plugin:3.4:attach-descriptor (attach-descriptor) @ commons-math4 ---
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.7:run (default) @ commons-math4 ---
+[INFO] Executing tasks
+
+main:
+      [jar] Building jar: /home/ubuntu/anrchen/defects4j_projects/commons-math_cluster2/target/commons-math4-4.0-SNAPSHOT-tools.jar
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.7:attach-artifact (attach-artifacts) @ commons-math4 ---
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.5:check (check) @ commons-math4 ---
+[INFO] Loading execution data file /home/ubuntu/anrchen/defects4j_projects/commons-math_cluster2/target/jacoco.exec
+[INFO] Analyzed bundle 'commons-math4' with 983 classes
+[WARNING] Rule violated for bundle commons-math4: classes covered ratio is 0.06, but expected minimum is 0.96
+[WARNING] Rule violated for bundle commons-math4: instructions covered ratio is 0.1, but expected minimum is 0.8
+[WARNING] Rule violated for bundle commons-math4: methods covered ratio is 0.0, but expected minimum is 0.8
+[WARNING] Rule violated for bundle commons-math4: branches covered ratio is 0.0, but expected minimum is 0.8
+[WARNING] Rule violated for bundle commons-math4: lines covered ratio is 0.01, but expected minimum is 0.85
+[WARNING] Rule violated for bundle commons-math4: complexity covered ratio is 0.0, but expected minimum is 0.8
+[WARNING] Coverage checks have not been met. See log for details.
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  01:00 min
+[INFO] Finished at: 2021-01-10T12:29:55Z
+[INFO] ------------------------------------------------------------------------

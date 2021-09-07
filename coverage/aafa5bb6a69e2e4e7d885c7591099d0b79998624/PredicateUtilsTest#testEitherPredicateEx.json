@@ -1,0 +1,19 @@
+{
+    "covered_lines": {
+        "Apache Commons Collections.org.apache.commons.collections4.functors.FunctorUtils": [
+            "84"
+        ]
+    },
+    "covered_stats": {
+        "Apache Commons Collections.org.apache.commons.collections4.functors.FunctorUtils.validate(Predicate[])": {
+            "branch_coverage": "50%",
+            "line_coverage": "76%",
+            "missed_complexity": "3",
+            "missed_lines": "2",
+            "missed_methods": "0",
+            "total_complexity": "4",
+            "total_lines": "6",
+            "total_methods": "1"
+        }
+    }
+}

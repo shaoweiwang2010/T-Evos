@@ -1,0 +1,137 @@
+{
+    "covered_lines": {
+        "Apache Commons Codec.org.apache.commons.codec.Charsets": [
+            "99",
+            "110",
+            "122",
+            "133",
+            "144",
+            "155"
+        ],
+        "Apache Commons Codec.org.apache.commons.codec.binary.StringUtils": [
+            "355"
+        ],
+        "Apache Commons Codec.org.apache.commons.codec.net.URLCodec": [
+            "70",
+            "76",
+            "79",
+            "83",
+            "86",
+            "87",
+            "88",
+            "89",
+            "91",
+            "92",
+            "108",
+            "109",
+            "110",
+            "129",
+            "131",
+            "133",
+            "137",
+            "139",
+            "141",
+            "142",
+            "143",
+            "144",
+            "145",
+            "148",
+            "194",
+            "228",
+            "248",
+            "353"
+        ]
+    },
+    "covered_stats": {
+        "Apache Commons Codec.org.apache.commons.codec.Charsets.static {...}": {
+            "branch_coverage": "n/a",
+            "line_coverage": "100%",
+            "missed_complexity": "0",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "1",
+            "total_lines": "6",
+            "total_methods": "1"
+        },
+        "Apache Commons Codec.org.apache.commons.codec.binary.StringUtils.newStringUsAscii(byte[])": {
+            "branch_coverage": "n/a",
+            "line_coverage": "100%",
+            "missed_complexity": "0",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "1",
+            "total_lines": "1",
+            "total_methods": "1"
+        },
+        "Apache Commons Codec.org.apache.commons.codec.net.URLCodec.URLCodec(String)": {
+            "branch_coverage": "n/a",
+            "line_coverage": "100%",
+            "missed_complexity": "0",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "1",
+            "total_lines": "3",
+            "total_methods": "1"
+        },
+        "Apache Commons Codec.org.apache.commons.codec.net.URLCodec.encode(String)": {
+            "branch_coverage": "50%",
+            "line_coverage": "44%",
+            "missed_complexity": "1",
+            "missed_lines": "3",
+            "missed_methods": "0",
+            "total_complexity": "2",
+            "total_lines": "5",
+            "total_methods": "1"
+        },
+        "Apache Commons Codec.org.apache.commons.codec.net.URLCodec.encode(String, String)": {
+            "branch_coverage": "50%",
+            "line_coverage": "81%",
+            "missed_complexity": "1",
+            "missed_lines": "1",
+            "missed_methods": "0",
+            "total_complexity": "2",
+            "total_lines": "3",
+            "total_methods": "1"
+        },
+        "Apache Commons Codec.org.apache.commons.codec.net.URLCodec.encode(byte[])": {
+            "branch_coverage": "n/a",
+            "line_coverage": "100%",
+            "missed_complexity": "0",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "1",
+            "total_lines": "1",
+            "total_methods": "1"
+        },
+        "Apache Commons Codec.org.apache.commons.codec.net.URLCodec.encodeUrl(BitSet, byte[])": {
+            "branch_coverage": "83%",
+            "line_coverage": "94%",
+            "missed_complexity": "2",
+            "missed_lines": "2",
+            "missed_methods": "0",
+            "total_complexity": "7",
+            "total_lines": "19",
+            "total_methods": "1"
+        },
+        "Apache Commons Codec.org.apache.commons.codec.net.URLCodec.getDefaultCharset()": {
+            "branch_coverage": "n/a",
+            "line_coverage": "100%",
+            "missed_complexity": "0",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "1",
+            "total_lines": "1",
+            "total_methods": "1"
+        },
+        "Apache Commons Codec.org.apache.commons.codec.net.URLCodec.static {...}": {
+            "branch_coverage": "100%",
+            "line_coverage": "100%",
+            "missed_complexity": "0",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "4",
+            "total_lines": "13",
+            "total_methods": "1"
+        }
+    }
+}

@@ -1,0 +1,57 @@
+{
+    "covered_lines": {
+        "Apache Commons Codec.org.apache.commons.codec.language.Soundex": [
+            "52",
+            "59",
+            "81",
+            "82",
+            "83"
+        ],
+        "Apache Commons Codec.org.apache.commons.codec.language.SoundexUtils": [
+            "43",
+            "112"
+        ]
+    },
+    "covered_stats": {
+        "Apache Commons Codec.org.apache.commons.codec.language.Soundex.Soundex()": {
+            "branch_coverage": "n/a",
+            "line_coverage": "100%",
+            "missed_complexity": "0",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "1",
+            "total_lines": "4",
+            "total_methods": "1"
+        },
+        "Apache Commons Codec.org.apache.commons.codec.language.Soundex.static {...}": {
+            "branch_coverage": "n/a",
+            "line_coverage": "100%",
+            "missed_complexity": "0",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "1",
+            "total_lines": "2",
+            "total_methods": "1"
+        },
+        "Apache Commons Codec.org.apache.commons.codec.language.SoundexUtils.clean(String)": {
+            "branch_coverage": "30%",
+            "line_coverage": "14%",
+            "missed_complexity": "4",
+            "missed_lines": "9",
+            "missed_methods": "0",
+            "total_complexity": "6",
+            "total_lines": "11",
+            "total_methods": "1"
+        },
+        "Apache Commons Codec.org.apache.commons.codec.language.SoundexUtils.differenceEncoded(String, String)": {
+            "branch_coverage": "37%",
+            "line_coverage": "19%",
+            "missed_complexity": "3",
+            "missed_lines": "6",
+            "missed_methods": "0",
+            "total_complexity": "5",
+            "total_lines": "8",
+            "total_methods": "1"
+        }
+    }
+}

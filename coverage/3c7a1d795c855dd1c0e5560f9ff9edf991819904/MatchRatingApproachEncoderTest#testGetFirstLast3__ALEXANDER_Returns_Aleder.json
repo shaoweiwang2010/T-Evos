@@ -1,0 +1,44 @@
+{
+    "covered_lines": {
+        "Apache Commons Codec.org.apache.commons.codec.language.MatchRatingApproachEncoder": [
+            "32",
+            "66",
+            "160",
+            "163",
+            "164",
+            "165"
+        ]
+    },
+    "covered_stats": {
+        "Apache Commons Codec.org.apache.commons.codec.language.MatchRatingApproachEncoder.MatchRatingApproachEncoder()": {
+            "branch_coverage": "n/a",
+            "line_coverage": "100%",
+            "missed_complexity": "0",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "1",
+            "total_lines": "1",
+            "total_methods": "1"
+        },
+        "Apache Commons Codec.org.apache.commons.codec.language.MatchRatingApproachEncoder.getFirst3Last3(String)": {
+            "branch_coverage": "50%",
+            "line_coverage": "93%",
+            "missed_complexity": "1",
+            "missed_lines": "1",
+            "missed_methods": "0",
+            "total_complexity": "2",
+            "total_lines": "6",
+            "total_methods": "1"
+        },
+        "Apache Commons Codec.org.apache.commons.codec.language.MatchRatingApproachEncoder.static {...}": {
+            "branch_coverage": "n/a",
+            "line_coverage": "100%",
+            "missed_complexity": "0",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "1",
+            "total_lines": "1",
+            "total_methods": "1"
+        }
+    }
+}

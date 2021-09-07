@@ -1,0 +1,54 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------------< org.jfree:jfreechart >------------------------
+[INFO] Building JFreeChart 1.6.0-snapshot
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.5:prepare-agent (default) @ jfreechart ---
+[INFO] argLine set to -javaagent:/home/ubuntu/.m2/repository/org/jacoco/org.jacoco.agent/0.8.5/org.jacoco.agent-0.8.5-runtime.jar=destfile=/home/ubuntu/anrchen/defects4j_projects/jfreechart/target/jacoco.exec,append=false
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ jfreechart ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 42 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ jfreechart ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 637 source files to /home/ubuntu/anrchen/defects4j_projects/jfreechart/target/classes
+[INFO] /home/ubuntu/anrchen/defects4j_projects/jfreechart/src/main/java/org/jfree/chart/urls/URLUtilities.java: Some input files use or override a deprecated API.
+[INFO] /home/ubuntu/anrchen/defects4j_projects/jfreechart/src/main/java/org/jfree/chart/urls/URLUtilities.java: Recompile with -Xlint:deprecation for details.
+[INFO] /home/ubuntu/anrchen/defects4j_projects/jfreechart/src/main/java/org/jfree/data/xy/DefaultXYZDataset.java: Some input files use unchecked or unsafe operations.
+[INFO] /home/ubuntu/anrchen/defects4j_projects/jfreechart/src/main/java/org/jfree/data/xy/DefaultXYZDataset.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ jfreechart ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/anrchen/defects4j_projects/jfreechart/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:testCompile (default-testCompile) @ jfreechart ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.10:test (default-test) @ jfreechart ---
+[INFO] Surefire report directory: /home/ubuntu/anrchen/defects4j_projects/jfreechart/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.jfree.chart.labels.SymbolicXYItemLabelGeneratorTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.085 sec
+
+Results :
+
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.5:report (report) @ jfreechart ---
+[INFO] Loading execution data file /home/ubuntu/anrchen/defects4j_projects/jfreechart/target/jacoco.exec
+[INFO] Analyzed bundle 'JFreeChart' with 548 classes
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ jfreechart ---
+[INFO] Building jar: /home/ubuntu/anrchen/defects4j_projects/jfreechart/target/jfreechart-1.6.0-snapshot.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  14.036 s
+[INFO] Finished at: 2020-10-30T23:27:33Z
+[INFO] ------------------------------------------------------------------------

@@ -1,0 +1,167 @@
+{
+    "covered_lines": {
+        "Apache Commons Codec.org.apache.commons.codec.Charsets": [
+            "99",
+            "110",
+            "122",
+            "133",
+            "144",
+            "155"
+        ],
+        "Apache Commons Codec.org.apache.commons.codec.digest.B64": [
+            "57",
+            "59",
+            "61",
+            "62",
+            "64",
+            "73",
+            "75",
+            "77"
+        ],
+        "Apache Commons Codec.org.apache.commons.codec.digest.DigestUtils": [
+            "85",
+            "115"
+        ],
+        "Apache Commons Codec.org.apache.commons.codec.digest.Md5Crypt": [
+            "72",
+            "92",
+            "126",
+            "180",
+            "187",
+            "188",
+            "192",
+            "194",
+            "196",
+            "201",
+            "206",
+            "211",
+            "216",
+            "217",
+            "218",
+            "219",
+            "220",
+            "221",
+            "224",
+            "230",
+            "235",
+            "236",
+            "239",
+            "241",
+            "243",
+            "249",
+            "250",
+            "257",
+            "259",
+            "261",
+            "265",
+            "269",
+            "273",
+            "275",
+            "277",
+            "283",
+            "284",
+            "285",
+            "286",
+            "287",
+            "288",
+            "294",
+            "295",
+            "296",
+            "297",
+            "298",
+            "300"
+        ]
+    },
+    "covered_stats": {
+        "Apache Commons Codec.org.apache.commons.codec.Charsets.static {...}": {
+            "branch_coverage": "n/a",
+            "line_coverage": "100%",
+            "missed_complexity": "0",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "1",
+            "total_lines": "6",
+            "total_methods": "1"
+        },
+        "Apache Commons Codec.org.apache.commons.codec.digest.B64.b64from24bit(byte, byte, byte, int, StringBuilder)": {
+            "branch_coverage": "100%",
+            "line_coverage": "100%",
+            "missed_complexity": "0",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "2",
+            "total_lines": "6",
+            "total_methods": "1"
+        },
+        "Apache Commons Codec.org.apache.commons.codec.digest.B64.getRandomSalt(int)": {
+            "branch_coverage": "100%",
+            "line_coverage": "100%",
+            "missed_complexity": "0",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "2",
+            "total_lines": "4",
+            "total_methods": "1"
+        },
+        "Apache Commons Codec.org.apache.commons.codec.digest.DigestUtils.getDigest(String)": {
+            "branch_coverage": "n/a",
+            "line_coverage": "33%",
+            "missed_complexity": "0",
+            "missed_lines": "2",
+            "missed_methods": "0",
+            "total_complexity": "1",
+            "total_lines": "3",
+            "total_methods": "1"
+        },
+        "Apache Commons Codec.org.apache.commons.codec.digest.DigestUtils.getMd5Digest()": {
+            "branch_coverage": "n/a",
+            "line_coverage": "100%",
+            "missed_complexity": "0",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "1",
+            "total_lines": "1",
+            "total_methods": "1"
+        },
+        "Apache Commons Codec.org.apache.commons.codec.digest.Md5Crypt.apr1Crypt(String, String)": {
+            "branch_coverage": "n/a",
+            "line_coverage": "100%",
+            "missed_complexity": "0",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "1",
+            "total_lines": "1",
+            "total_methods": "1"
+        },
+        "Apache Commons Codec.org.apache.commons.codec.digest.Md5Crypt.apr1Crypt(byte[])": {
+            "branch_coverage": "n/a",
+            "line_coverage": "100%",
+            "missed_complexity": "0",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "1",
+            "total_lines": "1",
+            "total_methods": "1"
+        },
+        "Apache Commons Codec.org.apache.commons.codec.digest.Md5Crypt.apr1Crypt(byte[], String)": {
+            "branch_coverage": "50%",
+            "line_coverage": "55%",
+            "missed_complexity": "2",
+            "missed_lines": "1",
+            "missed_methods": "0",
+            "total_complexity": "3",
+            "total_lines": "3",
+            "total_methods": "1"
+        },
+        "Apache Commons Codec.org.apache.commons.codec.digest.Md5Crypt.md5Crypt(byte[], String, String)": {
+            "branch_coverage": "83%",
+            "line_coverage": "93%",
+            "missed_complexity": "4",
+            "missed_lines": "2",
+            "missed_methods": "0",
+            "total_complexity": "13",
+            "total_lines": "57",
+            "total_methods": "1"
+        }
+    }
+}

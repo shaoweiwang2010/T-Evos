@@ -1,0 +1,147 @@
+{
+    "covered_lines": {
+        "Apache Commons Codec.org.apache.commons.codec.language.Nysiis": [
+            "72",
+            "73",
+            "74",
+            "75",
+            "76",
+            "77",
+            "78",
+            "79",
+            "80",
+            "82",
+            "83",
+            "84",
+            "85",
+            "86",
+            "87",
+            "88",
+            "166",
+            "177",
+            "178",
+            "191",
+            "192",
+            "193",
+            "227",
+            "236",
+            "252",
+            "260",
+            "261",
+            "262",
+            "263",
+            "264",
+            "268",
+            "269",
+            "272",
+            "273",
+            "276",
+            "277",
+            "282",
+            "283",
+            "287",
+            "292",
+            "301",
+            "314"
+        ],
+        "Apache Commons Codec.org.apache.commons.codec.language.SoundexUtils": [
+            "45",
+            "46",
+            "47",
+            "50",
+            "54"
+        ]
+    },
+    "covered_stats": {
+        "Apache Commons Codec.org.apache.commons.codec.language.Nysiis.Nysiis()": {
+            "branch_coverage": "n/a",
+            "line_coverage": "100%",
+            "missed_complexity": "0",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "1",
+            "total_lines": "2",
+            "total_methods": "1"
+        },
+        "Apache Commons Codec.org.apache.commons.codec.language.Nysiis.Nysiis(boolean)": {
+            "branch_coverage": "n/a",
+            "line_coverage": "100%",
+            "missed_complexity": "0",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "1",
+            "total_lines": "3",
+            "total_methods": "1"
+        },
+        "Apache Commons Codec.org.apache.commons.codec.language.Nysiis.encode(String)": {
+            "branch_coverage": "n/a",
+            "line_coverage": "100%",
+            "missed_complexity": "0",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "1",
+            "total_lines": "1",
+            "total_methods": "1"
+        },
+        "Apache Commons Codec.org.apache.commons.codec.language.Nysiis.isStrict()": {
+            "branch_coverage": "n/a",
+            "line_coverage": "100%",
+            "missed_complexity": "0",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "1",
+            "total_lines": "1",
+            "total_methods": "1"
+        },
+        "Apache Commons Codec.org.apache.commons.codec.language.Nysiis.isVowel(char)": {
+            "branch_coverage": "50%",
+            "line_coverage": "89%",
+            "missed_complexity": "5",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "6",
+            "total_lines": "1",
+            "total_methods": "1"
+        },
+        "Apache Commons Codec.org.apache.commons.codec.language.Nysiis.nysiis(String)": {
+            "branch_coverage": "65%",
+            "line_coverage": "80%",
+            "missed_complexity": "8",
+            "missed_lines": "6",
+            "missed_methods": "0",
+            "total_complexity": "14",
+            "total_lines": "36",
+            "total_methods": "1"
+        },
+        "Apache Commons Codec.org.apache.commons.codec.language.Nysiis.static {...}": {
+            "branch_coverage": "n/a",
+            "line_coverage": "100%",
+            "missed_complexity": "0",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "1",
+            "total_lines": "16",
+            "total_methods": "1"
+        },
+        "Apache Commons Codec.org.apache.commons.codec.language.Nysiis.transcodeRemaining(char, char, char, char)": {
+            "branch_coverage": "33%",
+            "line_coverage": "43%",
+            "missed_complexity": "17",
+            "missed_lines": "12",
+            "missed_methods": "0",
+            "total_complexity": "19",
+            "total_lines": "23",
+            "total_methods": "1"
+        },
+        "Apache Commons Codec.org.apache.commons.codec.language.SoundexUtils.clean(String)": {
+            "branch_coverage": "60%",
+            "line_coverage": "78%",
+            "missed_complexity": "4",
+            "missed_lines": "2",
+            "missed_methods": "0",
+            "total_complexity": "6",
+            "total_lines": "11",
+            "total_methods": "1"
+        }
+    }
+}

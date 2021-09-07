@@ -1,0 +1,45 @@
+{
+    "covered_lines": {
+        "Apache Commons Codec.org.apache.commons.codec.digest.Sha2Crypt": [
+            "68",
+            "69",
+            "136",
+            "139",
+            "140",
+            "145",
+            "147"
+        ]
+    },
+    "covered_stats": {
+        "Apache Commons Codec.org.apache.commons.codec.digest.Sha2Crypt.sha2Crypt(byte[], String, String, int, String)": {
+            "branch_coverage": "8%",
+            "line_coverage": "4%",
+            "missed_complexity": "18",
+            "missed_lines": "110",
+            "missed_methods": "0",
+            "total_complexity": "19",
+            "total_lines": "117",
+            "total_methods": "1"
+        },
+        "Apache Commons Codec.org.apache.commons.codec.digest.Sha2Crypt.sha512Crypt(byte[], String)": {
+            "branch_coverage": "50%",
+            "line_coverage": "10%",
+            "missed_complexity": "1",
+            "missed_lines": "2",
+            "missed_methods": "0",
+            "total_complexity": "2",
+            "total_lines": "3",
+            "total_methods": "1"
+        },
+        "Apache Commons Codec.org.apache.commons.codec.digest.Sha2Crypt.static {...}": {
+            "branch_coverage": "n/a",
+            "line_coverage": "100%",
+            "missed_complexity": "0",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "1",
+            "total_lines": "2",
+            "total_methods": "1"
+        }
+    }
+}

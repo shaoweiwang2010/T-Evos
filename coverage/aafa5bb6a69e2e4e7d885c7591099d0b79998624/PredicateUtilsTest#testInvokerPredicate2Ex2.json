@@ -1,0 +1,119 @@
+{
+    "covered_lines": {
+        "Apache Commons Collections.org.apache.commons.collections4.FunctorException": [
+            "46",
+            "47"
+        ],
+        "Apache Commons Collections.org.apache.commons.collections4.PredicateUtils": [
+            "239",
+            "470"
+        ],
+        "Apache Commons Collections.org.apache.commons.collections4.functors.InvokerTransformer": [
+            "83",
+            "109",
+            "110",
+            "113",
+            "124"
+        ],
+        "Apache Commons Collections.org.apache.commons.collections4.functors.TransformerPredicate": [
+            "51",
+            "61",
+            "62",
+            "63",
+            "73",
+            "75"
+        ]
+    },
+    "covered_stats": {
+        "Apache Commons Collections.org.apache.commons.collections4.FunctorException.FunctorException(String)": {
+            "branch_coverage": "n/a",
+            "line_coverage": "100%",
+            "missed_complexity": "0",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "1",
+            "total_lines": "2",
+            "total_methods": "1"
+        },
+        "Apache Commons Collections.org.apache.commons.collections4.PredicateUtils.asPredicate(Transformer)": {
+            "branch_coverage": "n/a",
+            "line_coverage": "100%",
+            "missed_complexity": "0",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "1",
+            "total_lines": "1",
+            "total_methods": "1"
+        },
+        "Apache Commons Collections.org.apache.commons.collections4.PredicateUtils.invokerPredicate(String, Class[], Object[])": {
+            "branch_coverage": "n/a",
+            "line_coverage": "100%",
+            "missed_complexity": "0",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "1",
+            "total_lines": "1",
+            "total_methods": "1"
+        },
+        "Apache Commons Collections.org.apache.commons.collections4.functors.InvokerTransformer.InvokerTransformer(String, Class[], Object[])": {
+            "branch_coverage": "50%",
+            "line_coverage": "91%",
+            "missed_complexity": "2",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "3",
+            "total_lines": "5",
+            "total_methods": "1"
+        },
+        "Apache Commons Collections.org.apache.commons.collections4.functors.InvokerTransformer.invokerTransformer(String, Class[], Object[])": {
+            "branch_coverage": "45%",
+            "line_coverage": "63%",
+            "missed_complexity": "10",
+            "missed_lines": "3",
+            "missed_methods": "0",
+            "total_complexity": "11",
+            "total_lines": "7",
+            "total_methods": "1"
+        },
+        "Apache Commons Collections.org.apache.commons.collections4.functors.InvokerTransformer.transform(Object)": {
+            "branch_coverage": "50%",
+            "line_coverage": "4%",
+            "missed_complexity": "1",
+            "missed_lines": "12",
+            "missed_methods": "0",
+            "total_complexity": "2",
+            "total_lines": "14",
+            "total_methods": "1"
+        },
+        "Apache Commons Collections.org.apache.commons.collections4.functors.TransformerPredicate.TransformerPredicate(Transformer)": {
+            "branch_coverage": "n/a",
+            "line_coverage": "100%",
+            "missed_complexity": "0",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "1",
+            "total_lines": "3",
+            "total_methods": "1"
+        },
+        "Apache Commons Collections.org.apache.commons.collections4.functors.TransformerPredicate.evaluate(Object)": {
+            "branch_coverage": "50%",
+            "line_coverage": "81%",
+            "missed_complexity": "1",
+            "missed_lines": "1",
+            "missed_methods": "0",
+            "total_complexity": "2",
+            "total_lines": "4",
+            "total_methods": "1"
+        },
+        "Apache Commons Collections.org.apache.commons.collections4.functors.TransformerPredicate.transformerPredicate(Transformer)": {
+            "branch_coverage": "50%",
+            "line_coverage": "58%",
+            "missed_complexity": "1",
+            "missed_lines": "1",
+            "missed_methods": "0",
+            "total_complexity": "2",
+            "total_lines": "3",
+            "total_methods": "1"
+        }
+    }
+}

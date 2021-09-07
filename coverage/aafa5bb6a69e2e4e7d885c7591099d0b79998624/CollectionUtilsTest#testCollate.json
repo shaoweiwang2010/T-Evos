@@ -1,0 +1,573 @@
+{
+    "covered_lines": {
+        "Apache Commons Collections.org.apache.commons.collections4.CollectionUtils": [
+            "183",
+            "184",
+            "1756",
+            "1796",
+            "1829",
+            "1831"
+        ],
+        "Apache Commons Collections.org.apache.commons.collections4.ComparatorUtils": [
+            "54",
+            "64",
+            "116"
+        ],
+        "Apache Commons Collections.org.apache.commons.collections4.IteratorUtils": [
+            "90",
+            "99",
+            "105",
+            "111",
+            "117",
+            "1063",
+            "1065",
+            "1067"
+        ],
+        "Apache Commons Collections.org.apache.commons.collections4.collection.AbstractCollectionDecorator": [
+            "65",
+            "69",
+            "70"
+        ],
+        "Apache Commons Collections.org.apache.commons.collections4.collection.UnmodifiableCollection": [
+            "60",
+            "72",
+            "73"
+        ],
+        "Apache Commons Collections.org.apache.commons.collections4.comparators.ComparableComparator": [
+            "49",
+            "65",
+            "75",
+            "76",
+            "93"
+        ],
+        "Apache Commons Collections.org.apache.commons.collections4.comparators.ReverseComparator": [
+            "63",
+            "65",
+            "76"
+        ],
+        "Apache Commons Collections.org.apache.commons.collections4.iterators.AbstractEmptyIterator": [
+            "33",
+            "34"
+        ],
+        "Apache Commons Collections.org.apache.commons.collections4.iterators.AbstractEmptyMapIterator": [
+            "31",
+            "32"
+        ],
+        "Apache Commons Collections.org.apache.commons.collections4.iterators.CollatingIterator": [
+            "44",
+            "47",
+            "50",
+            "53",
+            "59",
+            "99",
+            "100",
+            "101",
+            "102",
+            "118",
+            "119",
+            "120",
+            "121",
+            "172",
+            "176",
+            "177",
+            "225",
+            "226",
+            "227",
+            "237",
+            "251",
+            "255",
+            "256",
+            "257",
+            "258",
+            "296",
+            "297",
+            "299",
+            "300",
+            "303",
+            "314",
+            "316",
+            "317",
+            "318",
+            "320",
+            "321",
+            "322",
+            "330",
+            "331",
+            "332",
+            "344",
+            "353",
+            "354",
+            "357",
+            "361",
+            "362",
+            "364",
+            "369",
+            "370",
+            "375",
+            "385",
+            "388",
+            "398",
+            "400",
+            "401"
+        ],
+        "Apache Commons Collections.org.apache.commons.collections4.iterators.EmptyIterator": [
+            "40",
+            "47",
+            "73",
+            "74"
+        ],
+        "Apache Commons Collections.org.apache.commons.collections4.iterators.EmptyListIterator": [
+            "41",
+            "48",
+            "74",
+            "75"
+        ],
+        "Apache Commons Collections.org.apache.commons.collections4.iterators.EmptyMapIterator": [
+            "36",
+            "53",
+            "54"
+        ],
+        "Apache Commons Collections.org.apache.commons.collections4.iterators.EmptyOrderedIterator": [
+            "36",
+            "52",
+            "53"
+        ],
+        "Apache Commons Collections.org.apache.commons.collections4.iterators.EmptyOrderedMapIterator": [
+            "36",
+            "53",
+            "54"
+        ]
+    },
+    "covered_stats": {
+        "Apache Commons Collections.org.apache.commons.collections4.CollectionUtils.collate(Iterable, Iterable)": {
+            "branch_coverage": "n/a",
+            "line_coverage": "100%",
+            "missed_complexity": "0",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "1",
+            "total_lines": "1",
+            "total_methods": "1"
+        },
+        "Apache Commons Collections.org.apache.commons.collections4.CollectionUtils.collate(Iterable, Iterable, Comparator)": {
+            "branch_coverage": "n/a",
+            "line_coverage": "100%",
+            "missed_complexity": "0",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "1",
+            "total_lines": "1",
+            "total_methods": "1"
+        },
+        "Apache Commons Collections.org.apache.commons.collections4.CollectionUtils.collate(Iterable, Iterable, Comparator, boolean)": {
+            "branch_coverage": "33%",
+            "line_coverage": "48%",
+            "missed_complexity": "9",
+            "missed_lines": "12",
+            "missed_methods": "0",
+            "total_complexity": "10",
+            "total_lines": "19",
+            "total_methods": "1"
+        },
+        "Apache Commons Collections.org.apache.commons.collections4.CollectionUtils.static {...}": {
+            "branch_coverage": "n/a",
+            "line_coverage": "100%",
+            "missed_complexity": "0",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "1",
+            "total_lines": "2",
+            "total_methods": "1"
+        },
+        "Apache Commons Collections.org.apache.commons.collections4.ComparatorUtils.naturalComparator()": {
+            "branch_coverage": "n/a",
+            "line_coverage": "100%",
+            "missed_complexity": "0",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "1",
+            "total_lines": "1",
+            "total_methods": "1"
+        },
+        "Apache Commons Collections.org.apache.commons.collections4.ComparatorUtils.reversedComparator(Comparator)": {
+            "branch_coverage": "n/a",
+            "line_coverage": "100%",
+            "missed_complexity": "0",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "1",
+            "total_lines": "1",
+            "total_methods": "1"
+        },
+        "Apache Commons Collections.org.apache.commons.collections4.ComparatorUtils.static {...}": {
+            "branch_coverage": "n/a",
+            "line_coverage": "100%",
+            "missed_complexity": "0",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "1",
+            "total_lines": "1",
+            "total_methods": "1"
+        },
+        "Apache Commons Collections.org.apache.commons.collections4.IteratorUtils.static {...}": {
+            "branch_coverage": "n/a",
+            "line_coverage": "100%",
+            "missed_complexity": "0",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "1",
+            "total_lines": "5",
+            "total_methods": "1"
+        },
+        "Apache Commons Collections.org.apache.commons.collections4.IteratorUtils.toList(Iterator, int)": {
+            "branch_coverage": "66%",
+            "line_coverage": "67%",
+            "missed_complexity": "2",
+            "missed_lines": "2",
+            "missed_methods": "0",
+            "total_complexity": "4",
+            "total_lines": "8",
+            "total_methods": "1"
+        },
+        "Apache Commons Collections.org.apache.commons.collections4.collection.AbstractCollectionDecorator.AbstractCollectionDecorator(Collection)": {
+            "branch_coverage": "50%",
+            "line_coverage": "61%",
+            "missed_complexity": "1",
+            "missed_lines": "1",
+            "missed_methods": "0",
+            "total_complexity": "2",
+            "total_lines": "5",
+            "total_methods": "1"
+        },
+        "Apache Commons Collections.org.apache.commons.collections4.collection.UnmodifiableCollection.UnmodifiableCollection(Collection)": {
+            "branch_coverage": "n/a",
+            "line_coverage": "100%",
+            "missed_complexity": "0",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "1",
+            "total_lines": "2",
+            "total_methods": "1"
+        },
+        "Apache Commons Collections.org.apache.commons.collections4.collection.UnmodifiableCollection.unmodifiableCollection(Collection)": {
+            "branch_coverage": "50%",
+            "line_coverage": "66%",
+            "missed_complexity": "1",
+            "missed_lines": "2",
+            "missed_methods": "0",
+            "total_complexity": "2",
+            "total_lines": "4",
+            "total_methods": "1"
+        },
+        "Apache Commons Collections.org.apache.commons.collections4.comparators.ComparableComparator.ComparableComparator()": {
+            "branch_coverage": "n/a",
+            "line_coverage": "100%",
+            "missed_complexity": "0",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "1",
+            "total_lines": "2",
+            "total_methods": "1"
+        },
+        "Apache Commons Collections.org.apache.commons.collections4.comparators.ComparableComparator.comparableComparator()": {
+            "branch_coverage": "n/a",
+            "line_coverage": "100%",
+            "missed_complexity": "0",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "1",
+            "total_lines": "1",
+            "total_methods": "1"
+        },
+        "Apache Commons Collections.org.apache.commons.collections4.comparators.ComparableComparator.compare(Comparable, Comparable)": {
+            "branch_coverage": "n/a",
+            "line_coverage": "100%",
+            "missed_complexity": "0",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "1",
+            "total_lines": "1",
+            "total_methods": "1"
+        },
+        "Apache Commons Collections.org.apache.commons.collections4.comparators.ComparableComparator.static {...}": {
+            "branch_coverage": "n/a",
+            "line_coverage": "100%",
+            "missed_complexity": "0",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "1",
+            "total_lines": "1",
+            "total_methods": "1"
+        },
+        "Apache Commons Collections.org.apache.commons.collections4.comparators.ReverseComparator.ReverseComparator(Comparator)": {
+            "branch_coverage": "50%",
+            "line_coverage": "80%",
+            "missed_complexity": "1",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "2",
+            "total_lines": "3",
+            "total_methods": "1"
+        },
+        "Apache Commons Collections.org.apache.commons.collections4.comparators.ReverseComparator.compare(Object, Object)": {
+            "branch_coverage": "n/a",
+            "line_coverage": "100%",
+            "missed_complexity": "0",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "1",
+            "total_lines": "1",
+            "total_methods": "1"
+        },
+        "Apache Commons Collections.org.apache.commons.collections4.iterators.AbstractEmptyIterator.AbstractEmptyIterator()": {
+            "branch_coverage": "n/a",
+            "line_coverage": "100%",
+            "missed_complexity": "0",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "1",
+            "total_lines": "2",
+            "total_methods": "1"
+        },
+        "Apache Commons Collections.org.apache.commons.collections4.iterators.AbstractEmptyMapIterator.AbstractEmptyMapIterator()": {
+            "branch_coverage": "n/a",
+            "line_coverage": "100%",
+            "missed_complexity": "0",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "1",
+            "total_lines": "2",
+            "total_methods": "1"
+        },
+        "Apache Commons Collections.org.apache.commons.collections4.iterators.CollatingIterator.CollatingIterator(Comparator, Iterator, Iterator)": {
+            "branch_coverage": "n/a",
+            "line_coverage": "100%",
+            "missed_complexity": "0",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "1",
+            "total_lines": "4",
+            "total_methods": "1"
+        },
+        "Apache Commons Collections.org.apache.commons.collections4.iterators.CollatingIterator.CollatingIterator(Comparator, int)": {
+            "branch_coverage": "n/a",
+            "line_coverage": "100%",
+            "missed_complexity": "0",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "1",
+            "total_lines": "9",
+            "total_methods": "1"
+        },
+        "Apache Commons Collections.org.apache.commons.collections4.iterators.CollatingIterator.addIterator(Iterator)": {
+            "branch_coverage": "50%",
+            "line_coverage": "66%",
+            "missed_complexity": "1",
+            "missed_lines": "1",
+            "missed_methods": "0",
+            "total_complexity": "2",
+            "total_lines": "5",
+            "total_methods": "1"
+        },
+        "Apache Commons Collections.org.apache.commons.collections4.iterators.CollatingIterator.anyHasNext(List)": {
+            "branch_coverage": "100%",
+            "line_coverage": "100%",
+            "missed_complexity": "0",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "3",
+            "total_lines": "5",
+            "total_methods": "1"
+        },
+        "Apache Commons Collections.org.apache.commons.collections4.iterators.CollatingIterator.anyValueSet(BitSet)": {
+            "branch_coverage": "100%",
+            "line_coverage": "100%",
+            "missed_complexity": "0",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "3",
+            "total_lines": "4",
+            "total_methods": "1"
+        },
+        "Apache Commons Collections.org.apache.commons.collections4.iterators.CollatingIterator.checkNotStarted()": {
+            "branch_coverage": "50%",
+            "line_coverage": "44%",
+            "missed_complexity": "1",
+            "missed_lines": "1",
+            "missed_methods": "0",
+            "total_complexity": "2",
+            "total_lines": "3",
+            "total_methods": "1"
+        },
+        "Apache Commons Collections.org.apache.commons.collections4.iterators.CollatingIterator.clear(int)": {
+            "branch_coverage": "n/a",
+            "line_coverage": "100%",
+            "missed_complexity": "0",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "1",
+            "total_lines": "3",
+            "total_methods": "1"
+        },
+        "Apache Commons Collections.org.apache.commons.collections4.iterators.CollatingIterator.hasNext()": {
+            "branch_coverage": "100%",
+            "line_coverage": "100%",
+            "missed_complexity": "0",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "3",
+            "total_lines": "2",
+            "total_methods": "1"
+        },
+        "Apache Commons Collections.org.apache.commons.collections4.iterators.CollatingIterator.least()": {
+            "branch_coverage": "91%",
+            "line_coverage": "92%",
+            "missed_complexity": "1",
+            "missed_lines": "1",
+            "missed_methods": "0",
+            "total_complexity": "7",
+            "total_lines": "16",
+            "total_methods": "1"
+        },
+        "Apache Commons Collections.org.apache.commons.collections4.iterators.CollatingIterator.next()": {
+            "branch_coverage": "50%",
+            "line_coverage": "73%",
+            "missed_complexity": "2",
+            "missed_lines": "2",
+            "missed_methods": "0",
+            "total_complexity": "3",
+            "total_lines": "9",
+            "total_methods": "1"
+        },
+        "Apache Commons Collections.org.apache.commons.collections4.iterators.CollatingIterator.set(int)": {
+            "branch_coverage": "100%",
+            "line_coverage": "100%",
+            "missed_complexity": "0",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "2",
+            "total_lines": "8",
+            "total_methods": "1"
+        },
+        "Apache Commons Collections.org.apache.commons.collections4.iterators.CollatingIterator.setComparator(Comparator)": {
+            "branch_coverage": "n/a",
+            "line_coverage": "100%",
+            "missed_complexity": "0",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "1",
+            "total_lines": "3",
+            "total_methods": "1"
+        },
+        "Apache Commons Collections.org.apache.commons.collections4.iterators.CollatingIterator.start()": {
+            "branch_coverage": "100%",
+            "line_coverage": "100%",
+            "missed_complexity": "0",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "3",
+            "total_lines": "7",
+            "total_methods": "1"
+        },
+        "Apache Commons Collections.org.apache.commons.collections4.iterators.EmptyIterator.EmptyIterator()": {
+            "branch_coverage": "n/a",
+            "line_coverage": "100%",
+            "missed_complexity": "0",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "1",
+            "total_lines": "2",
+            "total_methods": "1"
+        },
+        "Apache Commons Collections.org.apache.commons.collections4.iterators.EmptyIterator.static {...}": {
+            "branch_coverage": "n/a",
+            "line_coverage": "100%",
+            "missed_complexity": "0",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "1",
+            "total_lines": "2",
+            "total_methods": "1"
+        },
+        "Apache Commons Collections.org.apache.commons.collections4.iterators.EmptyListIterator.EmptyListIterator()": {
+            "branch_coverage": "n/a",
+            "line_coverage": "100%",
+            "missed_complexity": "0",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "1",
+            "total_lines": "2",
+            "total_methods": "1"
+        },
+        "Apache Commons Collections.org.apache.commons.collections4.iterators.EmptyListIterator.static {...}": {
+            "branch_coverage": "n/a",
+            "line_coverage": "100%",
+            "missed_complexity": "0",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "1",
+            "total_lines": "2",
+            "total_methods": "1"
+        },
+        "Apache Commons Collections.org.apache.commons.collections4.iterators.EmptyMapIterator.EmptyMapIterator()": {
+            "branch_coverage": "n/a",
+            "line_coverage": "100%",
+            "missed_complexity": "0",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "1",
+            "total_lines": "2",
+            "total_methods": "1"
+        },
+        "Apache Commons Collections.org.apache.commons.collections4.iterators.EmptyMapIterator.static {...}": {
+            "branch_coverage": "n/a",
+            "line_coverage": "100%",
+            "missed_complexity": "0",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "1",
+            "total_lines": "1",
+            "total_methods": "1"
+        },
+        "Apache Commons Collections.org.apache.commons.collections4.iterators.EmptyOrderedIterator.EmptyOrderedIterator()": {
+            "branch_coverage": "n/a",
+            "line_coverage": "100%",
+            "missed_complexity": "0",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "1",
+            "total_lines": "2",
+            "total_methods": "1"
+        },
+        "Apache Commons Collections.org.apache.commons.collections4.iterators.EmptyOrderedIterator.static {...}": {
+            "branch_coverage": "n/a",
+            "line_coverage": "100%",
+            "missed_complexity": "0",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "1",
+            "total_lines": "1",
+            "total_methods": "1"
+        },
+        "Apache Commons Collections.org.apache.commons.collections4.iterators.EmptyOrderedMapIterator.EmptyOrderedMapIterator()": {
+            "branch_coverage": "n/a",
+            "line_coverage": "100%",
+            "missed_complexity": "0",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "1",
+            "total_lines": "2",
+            "total_methods": "1"
+        },
+        "Apache Commons Collections.org.apache.commons.collections4.iterators.EmptyOrderedMapIterator.static {...}": {
+            "branch_coverage": "n/a",
+            "line_coverage": "100%",
+            "missed_complexity": "0",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "1",
+            "total_lines": "1",
+            "total_methods": "1"
+        }
+    }
+}

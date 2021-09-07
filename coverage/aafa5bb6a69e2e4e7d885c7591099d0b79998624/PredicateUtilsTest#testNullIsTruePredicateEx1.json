@@ -1,0 +1,19 @@
+{
+    "covered_lines": {
+        "Apache Commons Collections.org.apache.commons.collections4.functors.NullIsTruePredicate": [
+            "47"
+        ]
+    },
+    "covered_stats": {
+        "Apache Commons Collections.org.apache.commons.collections4.functors.NullIsTruePredicate.nullIsTruePredicate(Predicate)": {
+            "branch_coverage": "50%",
+            "line_coverage": "58%",
+            "missed_complexity": "1",
+            "missed_lines": "1",
+            "missed_methods": "0",
+            "total_complexity": "2",
+            "total_lines": "3",
+            "total_methods": "1"
+        }
+    }
+}

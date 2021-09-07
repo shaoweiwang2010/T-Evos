@@ -1,0 +1,72 @@
+{
+    "covered_lines": {
+        "Apache Commons Collections.org.apache.commons.collections4.comparators.FixedOrderComparator": [
+            "58",
+            "59",
+            "112",
+            "117",
+            "118",
+            "119",
+            "131",
+            "143",
+            "183",
+            "184",
+            "228",
+            "229",
+            "230",
+            "246"
+        ]
+    },
+    "covered_stats": {
+        "Apache Commons Collections.org.apache.commons.collections4.comparators.FixedOrderComparator.FixedOrderComparator(List)": {
+            "branch_coverage": "75%",
+            "line_coverage": "86%",
+            "missed_complexity": "1",
+            "missed_lines": "1",
+            "missed_methods": "0",
+            "total_complexity": "3",
+            "total_lines": "11",
+            "total_methods": "1"
+        },
+        "Apache Commons Collections.org.apache.commons.collections4.comparators.FixedOrderComparator.add(Object)": {
+            "branch_coverage": "50%",
+            "line_coverage": "95%",
+            "missed_complexity": "1",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "2",
+            "total_lines": "3",
+            "total_methods": "1"
+        },
+        "Apache Commons Collections.org.apache.commons.collections4.comparators.FixedOrderComparator.checkLocked()": {
+            "branch_coverage": "50%",
+            "line_coverage": "44%",
+            "missed_complexity": "1",
+            "missed_lines": "1",
+            "missed_methods": "0",
+            "total_complexity": "2",
+            "total_lines": "3",
+            "total_methods": "1"
+        },
+        "Apache Commons Collections.org.apache.commons.collections4.comparators.FixedOrderComparator.compare(Object, Object)": {
+            "branch_coverage": "11%",
+            "line_coverage": "28%",
+            "missed_complexity": "10",
+            "missed_lines": "6",
+            "missed_methods": "0",
+            "total_complexity": "11",
+            "total_lines": "11",
+            "total_methods": "1"
+        },
+        "Apache Commons Collections.org.apache.commons.collections4.comparators.FixedOrderComparator.isLocked()": {
+            "branch_coverage": "n/a",
+            "line_coverage": "100%",
+            "missed_complexity": "0",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "1",
+            "total_lines": "1",
+            "total_methods": "1"
+        }
+    }
+}

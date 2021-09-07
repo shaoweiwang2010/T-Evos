@@ -1,0 +1,71 @@
+{
+    "covered_lines": {
+        "Apache Commons Codec.org.apache.commons.codec.language.DoubleMetaphone": [
+            "48",
+            "50",
+            "52",
+            "54",
+            "60",
+            "66",
+            "67",
+            "76",
+            "87",
+            "89",
+            "890",
+            "892",
+            "894"
+        ]
+    },
+    "covered_stats": {
+        "Apache Commons Codec.org.apache.commons.codec.language.DoubleMetaphone.DoubleMetaphone()": {
+            "branch_coverage": "n/a",
+            "line_coverage": "100%",
+            "missed_complexity": "0",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "1",
+            "total_lines": "3",
+            "total_methods": "1"
+        },
+        "Apache Commons Codec.org.apache.commons.codec.language.DoubleMetaphone.cleanInput(String)": {
+            "branch_coverage": "75%",
+            "line_coverage": "75%",
+            "missed_complexity": "1",
+            "missed_lines": "1",
+            "missed_methods": "0",
+            "total_complexity": "3",
+            "total_lines": "6",
+            "total_methods": "1"
+        },
+        "Apache Commons Codec.org.apache.commons.codec.language.DoubleMetaphone.doubleMetaphone(String)": {
+            "branch_coverage": "n/a",
+            "line_coverage": "100%",
+            "missed_complexity": "0",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "1",
+            "total_lines": "1",
+            "total_methods": "1"
+        },
+        "Apache Commons Codec.org.apache.commons.codec.language.DoubleMetaphone.doubleMetaphone(String, boolean)": {
+            "branch_coverage": "2%",
+            "line_coverage": "2%",
+            "missed_complexity": "35",
+            "missed_lines": "63",
+            "missed_methods": "0",
+            "total_complexity": "36",
+            "total_lines": "66",
+            "total_methods": "1"
+        },
+        "Apache Commons Codec.org.apache.commons.codec.language.DoubleMetaphone.static {...}": {
+            "branch_coverage": "n/a",
+            "line_coverage": "100%",
+            "missed_complexity": "0",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "1",
+            "total_lines": "4",
+            "total_methods": "1"
+        }
+    }
+}

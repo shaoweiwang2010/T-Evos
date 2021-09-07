@@ -1,0 +1,19 @@
+{
+    "covered_lines": {
+        "Apache Commons Codec.org.apache.commons.codec.binary.StringUtils": [
+            "317"
+        ]
+    },
+    "covered_stats": {
+        "Apache Commons Codec.org.apache.commons.codec.binary.StringUtils.newString(byte[], String)": {
+            "branch_coverage": "50%",
+            "line_coverage": "26%",
+            "missed_complexity": "1",
+            "missed_lines": "3",
+            "missed_methods": "0",
+            "total_complexity": "2",
+            "total_lines": "5",
+            "total_methods": "1"
+        }
+    }
+}
