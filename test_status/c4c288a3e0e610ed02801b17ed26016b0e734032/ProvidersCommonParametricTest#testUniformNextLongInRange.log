@@ -1,0 +1,105 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------< org.apache.commons:commons-math4 >------------------
+[INFO] Building Apache Commons Math 4.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.3.1:enforce (enforce-maven-3) @ commons-math4 ---
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.7:parse-version (parse-version) @ commons-math4 ---
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.5:prepare-agent (default) @ commons-math4 ---
+[INFO] argLine set to -javaagent:/home/ubuntu/.m2/repository/org/jacoco/org.jacoco.agent/0.8.5/org.jacoco.agent-0.8.5-runtime.jar=destfile=/home/ubuntu/anrchen/defects4j_projects/commons-math_cluster2/target/jacoco.exec,append=false
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.7:run (javadoc.resources) @ commons-math4 ---
+[INFO] Executing tasks
+
+main:
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ commons-math4 ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.3:create (default) @ commons-math4 ---
+[INFO] Executing: /bin/sh -c cd /home/ubuntu/anrchen/defects4j_projects/commons-math_cluster2 && git rev-parse --verify HEAD
+[INFO] Working directory: /home/ubuntu/anrchen/defects4j_projects/commons-math_cluster2
+[INFO] Storing buildNumber: null at timestamp: 2021-01-12 07:58:33+0000
+[WARNING] Cannot get the branch information from the git repository: 
+Detecting the current branch failed: fatal: ref HEAD is not a symbolic ref
+
+[INFO] Executing: /bin/sh -c cd /home/ubuntu/anrchen/defects4j_projects/commons-math_cluster2 && git rev-parse --verify HEAD
+[INFO] Working directory: /home/ubuntu/anrchen/defects4j_projects/commons-math_cluster2
+[INFO] Storing buildScmBranch: UNKNOWN
+[INFO] 
+[INFO] --- maven-jgit-buildnumber-plugin:1.2.10:extract-buildnumber (default) @ commons-math4 ---
+[INFO] Git info extracted, revision: 'c4c288a', branch: '', tag: '', commitsCount: '6100', commitDate: '2016-05-23', buildnumber: 'UNNAMED.6100.c4c288a'
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ commons-math4 ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.3:compile (default-compile) @ commons-math4 ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 911 source files to /home/ubuntu/anrchen/defects4j_projects/commons-math_cluster2/target/classes
+[INFO] /home/ubuntu/anrchen/defects4j_projects/commons-math_cluster2/src/main/java/org/apache/commons/math4/optim/BaseOptimizer.java: Some input files use or override a deprecated API.
+[INFO] /home/ubuntu/anrchen/defects4j_projects/commons-math_cluster2/src/main/java/org/apache/commons/math4/optim/BaseOptimizer.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- maven-bundle-plugin:2.5.3:manifest (bundle-manifest) @ commons-math4 ---
+[INFO] 
+[INFO] --- animal-sniffer-maven-plugin:1.14:check (checkAPIcompatibility) @ commons-math4 ---
+[INFO] Checking unresolved references to org.codehaus.mojo.signature:java17:1.0
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ commons-math4 ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 38 resources
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.3:testCompile (default-testCompile) @ commons-math4 ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.5:prepare-agent (prepare-agent) @ commons-math4 ---
+[INFO] argLine set to -javaagent:/home/ubuntu/.m2/repository/org/jacoco/org.jacoco.agent/0.8.5/org.jacoco.agent-0.8.5-runtime.jar=destfile=/home/ubuntu/anrchen/defects4j_projects/commons-math_cluster2/target/jacoco.exec,append=false
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.18.1:test (default-test) @ commons-math4 ---
+[INFO] Surefire report directory: /home/ubuntu/anrchen/defects4j_projects/commons-math_cluster2/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.apache.commons.math4.rng.ProvidersCommonParametricTest
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.1 sec <<< FAILURE! - in org.apache.commons.math4.rng.ProvidersCommonParametricTest
+initializationError(org.junit.runner.manipulation.Filter)  Time elapsed: 0.034 sec  <<< ERROR!
+java.lang.Exception: No tests found matching Method testUniformNextLongInRange(org.apache.commons.math4.rng.ProvidersCommonParametricTest) from org.junit.internal.requests.ClassRequest@479d31f3
+	at org.junit.internal.requests.FilterRequest.getRunner(FilterRequest.java:35)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:275)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:173)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:149)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:128)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+
+
+Results :
+
+Tests in error: 
+  Filter.initializationError »  No tests found matching Method testUniformNextLo...
+
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  42.131 s
+[INFO] Finished at: 2021-01-12T07:59:08Z
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:2.18.1:test (default-test) on project commons-math4: There are test failures.
+[ERROR] 
+[ERROR] Please refer to /home/ubuntu/anrchen/defects4j_projects/commons-math_cluster2/target/surefire-reports for the individual test results.
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

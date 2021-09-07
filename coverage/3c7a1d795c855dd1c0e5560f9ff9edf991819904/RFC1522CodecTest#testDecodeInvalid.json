@@ -1,0 +1,55 @@
+{
+    "covered_lines": {
+        "Apache Commons Codec.org.apache.commons.codec.DecoderException": [
+            "53",
+            "54"
+        ],
+        "Apache Commons Codec.org.apache.commons.codec.net.RFC1522Codec": [
+            "42",
+            "130",
+            "132",
+            "133",
+            "134",
+            "136",
+            "138",
+            "140",
+            "142",
+            "143",
+            "145",
+            "147",
+            "149"
+        ]
+    },
+    "covered_stats": {
+        "Apache Commons Codec.org.apache.commons.codec.DecoderException.DecoderException(String)": {
+            "branch_coverage": "n/a",
+            "line_coverage": "100%",
+            "missed_complexity": "0",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "1",
+            "total_lines": "2",
+            "total_methods": "1"
+        },
+        "Apache Commons Codec.org.apache.commons.codec.net.RFC1522Codec.RFC1522Codec()": {
+            "branch_coverage": "n/a",
+            "line_coverage": "100%",
+            "missed_complexity": "0",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "1",
+            "total_lines": "1",
+            "total_methods": "1"
+        },
+        "Apache Commons Codec.org.apache.commons.codec.net.RFC1522Codec.decodeText(String)": {
+            "branch_coverage": "85%",
+            "line_coverage": "76%",
+            "missed_complexity": "2",
+            "missed_lines": "6",
+            "missed_methods": "0",
+            "total_complexity": "8",
+            "total_lines": "24",
+            "total_methods": "1"
+        }
+    }
+}

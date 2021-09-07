@@ -1,0 +1,89 @@
+{
+    "covered_lines": {
+        "Apache Commons Codec.org.apache.commons.codec.EncoderException": [
+            "54",
+            "55"
+        ],
+        "Apache Commons Codec.org.apache.commons.codec.StringEncoderComparator": [
+            "57",
+            "58",
+            "59",
+            "77",
+            "85",
+            "86",
+            "88"
+        ],
+        "Apache Commons Codec.org.apache.commons.codec.language.DoubleMetaphone": [
+            "48",
+            "50",
+            "52",
+            "54",
+            "60",
+            "66",
+            "67",
+            "204"
+        ]
+    },
+    "covered_stats": {
+        "Apache Commons Codec.org.apache.commons.codec.EncoderException.EncoderException(String)": {
+            "branch_coverage": "n/a",
+            "line_coverage": "100%",
+            "missed_complexity": "0",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "1",
+            "total_lines": "2",
+            "total_methods": "1"
+        },
+        "Apache Commons Codec.org.apache.commons.codec.StringEncoderComparator.StringEncoderComparator(StringEncoder)": {
+            "branch_coverage": "n/a",
+            "line_coverage": "100%",
+            "missed_complexity": "0",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "1",
+            "total_lines": "3",
+            "total_methods": "1"
+        },
+        "Apache Commons Codec.org.apache.commons.codec.StringEncoderComparator.compare(Object, Object)": {
+            "branch_coverage": "n/a",
+            "line_coverage": "29%",
+            "missed_complexity": "0",
+            "missed_lines": "4",
+            "missed_methods": "0",
+            "total_complexity": "1",
+            "total_lines": "8",
+            "total_methods": "1"
+        },
+        "Apache Commons Codec.org.apache.commons.codec.language.DoubleMetaphone.DoubleMetaphone()": {
+            "branch_coverage": "n/a",
+            "line_coverage": "100%",
+            "missed_complexity": "0",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "1",
+            "total_lines": "3",
+            "total_methods": "1"
+        },
+        "Apache Commons Codec.org.apache.commons.codec.language.DoubleMetaphone.encode(Object)": {
+            "branch_coverage": "50%",
+            "line_coverage": "61%",
+            "missed_complexity": "1",
+            "missed_lines": "1",
+            "missed_methods": "0",
+            "total_complexity": "2",
+            "total_lines": "3",
+            "total_methods": "1"
+        },
+        "Apache Commons Codec.org.apache.commons.codec.language.DoubleMetaphone.static {...}": {
+            "branch_coverage": "n/a",
+            "line_coverage": "100%",
+            "missed_complexity": "0",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "1",
+            "total_lines": "4",
+            "total_methods": "1"
+        }
+    }
+}

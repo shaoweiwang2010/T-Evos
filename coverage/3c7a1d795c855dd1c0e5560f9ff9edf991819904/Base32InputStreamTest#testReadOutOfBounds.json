@@ -1,0 +1,191 @@
+{
+    "covered_lines": {
+        "Apache Commons Codec.org.apache.commons.codec.Charsets": [
+            "99",
+            "110",
+            "122",
+            "133",
+            "144",
+            "155"
+        ],
+        "Apache Commons Codec.org.apache.commons.codec.binary.Base32": [
+            "60",
+            "67",
+            "81",
+            "92",
+            "106",
+            "230",
+            "231",
+            "287",
+            "288",
+            "299",
+            "300",
+            "301",
+            "306",
+            "311"
+        ],
+        "Apache Commons Codec.org.apache.commons.codec.binary.Base32InputStream": [
+            "82",
+            "83"
+        ],
+        "Apache Commons Codec.org.apache.commons.codec.binary.BaseNCodec": [
+            "92",
+            "93",
+            "159",
+            "205",
+            "206",
+            "207",
+            "210",
+            "212",
+            "213",
+            "319",
+            "524"
+        ],
+        "Apache Commons Codec.org.apache.commons.codec.binary.BaseNCodecInputStream": [
+            "40",
+            "42",
+            "45",
+            "46",
+            "47",
+            "48",
+            "132",
+            "134"
+        ],
+        "Apache Commons Codec.org.apache.commons.codec.binary.StringUtils": [
+            "97",
+            "271"
+        ]
+    },
+    "covered_stats": {
+        "Apache Commons Codec.org.apache.commons.codec.Charsets.static {...}": {
+            "branch_coverage": "n/a",
+            "line_coverage": "100%",
+            "missed_complexity": "0",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "1",
+            "total_lines": "6",
+            "total_methods": "1"
+        },
+        "Apache Commons Codec.org.apache.commons.codec.binary.Base32.Base32(int, byte[])": {
+            "branch_coverage": "n/a",
+            "line_coverage": "100%",
+            "missed_complexity": "0",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "1",
+            "total_lines": "2",
+            "total_methods": "1"
+        },
+        "Apache Commons Codec.org.apache.commons.codec.binary.Base32.Base32(int, byte[], boolean, byte)": {
+            "branch_coverage": "50%",
+            "line_coverage": "54%",
+            "missed_complexity": "7",
+            "missed_lines": "8",
+            "missed_methods": "0",
+            "total_complexity": "8",
+            "total_lines": "21",
+            "total_methods": "1"
+        },
+        "Apache Commons Codec.org.apache.commons.codec.binary.Base32.isInAlphabet(byte)": {
+            "branch_coverage": "50%",
+            "line_coverage": "88%",
+            "missed_complexity": "3",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "4",
+            "total_lines": "1",
+            "total_methods": "1"
+        },
+        "Apache Commons Codec.org.apache.commons.codec.binary.Base32.static {...}": {
+            "branch_coverage": "n/a",
+            "line_coverage": "100%",
+            "missed_complexity": "0",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "1",
+            "total_lines": "5",
+            "total_methods": "1"
+        },
+        "Apache Commons Codec.org.apache.commons.codec.binary.Base32InputStream.Base32InputStream(InputStream, boolean, int, byte[])": {
+            "branch_coverage": "n/a",
+            "line_coverage": "100%",
+            "missed_complexity": "0",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "1",
+            "total_lines": "2",
+            "total_methods": "1"
+        },
+        "Apache Commons Codec.org.apache.commons.codec.binary.BaseNCodec.BaseNCodec(int, int, int, int, byte)": {
+            "branch_coverage": "50%",
+            "line_coverage": "94%",
+            "missed_complexity": "3",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "4",
+            "total_lines": "9",
+            "total_methods": "1"
+        },
+        "Apache Commons Codec.org.apache.commons.codec.binary.BaseNCodec.containsAlphabetOrPad(byte[])": {
+            "branch_coverage": "62%",
+            "line_coverage": "87%",
+            "missed_complexity": "3",
+            "missed_lines": "2",
+            "missed_methods": "0",
+            "total_complexity": "5",
+            "total_lines": "6",
+            "total_methods": "1"
+        },
+        "Apache Commons Codec.org.apache.commons.codec.binary.BaseNCodec.isWhiteSpace(byte)": {
+            "branch_coverage": "50%",
+            "line_coverage": "66%",
+            "missed_complexity": "1",
+            "missed_lines": "1",
+            "missed_methods": "0",
+            "total_complexity": "2",
+            "total_lines": "3",
+            "total_methods": "1"
+        },
+        "Apache Commons Codec.org.apache.commons.codec.binary.BaseNCodecInputStream.BaseNCodecInputStream(InputStream, BaseNCodec, boolean)": {
+            "branch_coverage": "n/a",
+            "line_coverage": "100%",
+            "missed_complexity": "0",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "1",
+            "total_lines": "6",
+            "total_methods": "1"
+        },
+        "Apache Commons Codec.org.apache.commons.codec.binary.BaseNCodecInputStream.read(byte[], int, int)": {
+            "branch_coverage": "40%",
+            "line_coverage": "27%",
+            "missed_complexity": "7",
+            "missed_lines": "13",
+            "missed_methods": "0",
+            "total_complexity": "11",
+            "total_lines": "18",
+            "total_methods": "1"
+        },
+        "Apache Commons Codec.org.apache.commons.codec.binary.StringUtils.getBytes(String, Charset)": {
+            "branch_coverage": "50%",
+            "line_coverage": "75%",
+            "missed_complexity": "1",
+            "missed_lines": "1",
+            "missed_methods": "0",
+            "total_complexity": "2",
+            "total_lines": "3",
+            "total_methods": "1"
+        },
+        "Apache Commons Codec.org.apache.commons.codec.binary.StringUtils.getBytesUtf8(String)": {
+            "branch_coverage": "n/a",
+            "line_coverage": "100%",
+            "missed_complexity": "0",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "1",
+            "total_lines": "1",
+            "total_methods": "1"
+        }
+    }
+}

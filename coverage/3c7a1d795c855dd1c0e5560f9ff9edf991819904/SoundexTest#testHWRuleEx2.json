@@ -1,0 +1,105 @@
+{
+    "covered_lines": {
+        "Apache Commons Codec.org.apache.commons.codec.language.Soundex": [
+            "52",
+            "59",
+            "81",
+            "82",
+            "83",
+            "167",
+            "187",
+            "200",
+            "204",
+            "232",
+            "236",
+            "238",
+            "239",
+            "241",
+            "243",
+            "245",
+            "247",
+            "248",
+            "251"
+        ],
+        "Apache Commons Codec.org.apache.commons.codec.language.SoundexUtils": [
+            "45",
+            "46",
+            "47",
+            "50",
+            "54",
+            "56"
+        ]
+    },
+    "covered_stats": {
+        "Apache Commons Codec.org.apache.commons.codec.language.Soundex.Soundex()": {
+            "branch_coverage": "n/a",
+            "line_coverage": "100%",
+            "missed_complexity": "0",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "1",
+            "total_lines": "4",
+            "total_methods": "1"
+        },
+        "Apache Commons Codec.org.apache.commons.codec.language.Soundex.encode(String)": {
+            "branch_coverage": "n/a",
+            "line_coverage": "100%",
+            "missed_complexity": "0",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "1",
+            "total_lines": "1",
+            "total_methods": "1"
+        },
+        "Apache Commons Codec.org.apache.commons.codec.language.Soundex.getSoundexMapping()": {
+            "branch_coverage": "n/a",
+            "line_coverage": "100%",
+            "missed_complexity": "0",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "1",
+            "total_lines": "1",
+            "total_methods": "1"
+        },
+        "Apache Commons Codec.org.apache.commons.codec.language.Soundex.map(char)": {
+            "branch_coverage": "50%",
+            "line_coverage": "57%",
+            "missed_complexity": "2",
+            "missed_lines": "1",
+            "missed_methods": "0",
+            "total_complexity": "3",
+            "total_lines": "4",
+            "total_methods": "1"
+        },
+        "Apache Commons Codec.org.apache.commons.codec.language.Soundex.soundex(String)": {
+            "branch_coverage": "78%",
+            "line_coverage": "95%",
+            "missed_complexity": "3",
+            "missed_lines": "2",
+            "missed_methods": "0",
+            "total_complexity": "8",
+            "total_lines": "17",
+            "total_methods": "1"
+        },
+        "Apache Commons Codec.org.apache.commons.codec.language.Soundex.static {...}": {
+            "branch_coverage": "n/a",
+            "line_coverage": "100%",
+            "missed_complexity": "0",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "1",
+            "total_lines": "2",
+            "total_methods": "1"
+        },
+        "Apache Commons Codec.org.apache.commons.codec.language.SoundexUtils.clean(String)": {
+            "branch_coverage": "80%",
+            "line_coverage": "96%",
+            "missed_complexity": "2",
+            "missed_lines": "1",
+            "missed_methods": "0",
+            "total_complexity": "6",
+            "total_lines": "11",
+            "total_methods": "1"
+        }
+    }
+}

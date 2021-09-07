@@ -1,0 +1,136 @@
+{
+    "covered_lines": {
+        "Apache Commons Collections.org.apache.commons.collections4.CollectionUtils": [
+            "183",
+            "184",
+            "1870",
+            "1871",
+            "1873",
+            "1875"
+        ],
+        "Apache Commons Collections.org.apache.commons.collections4.collection.AbstractCollectionDecorator": [
+            "65",
+            "69",
+            "70"
+        ],
+        "Apache Commons Collections.org.apache.commons.collections4.collection.UnmodifiableCollection": [
+            "60",
+            "72",
+            "73"
+        ],
+        "Apache Commons Collections.org.apache.commons.collections4.iterators.PermutationIterator": [
+            "76",
+            "81",
+            "82",
+            "83",
+            "84",
+            "85",
+            "87",
+            "88",
+            "89",
+            "90",
+            "91",
+            "92",
+            "113",
+            "114",
+            "119",
+            "120",
+            "125",
+            "126",
+            "127",
+            "132",
+            "133",
+            "134",
+            "135",
+            "136",
+            "137",
+            "140",
+            "145",
+            "147",
+            "148",
+            "149"
+        ]
+    },
+    "covered_stats": {
+        "Apache Commons Collections.org.apache.commons.collections4.CollectionUtils.permutations(Collection)": {
+            "branch_coverage": "100%",
+            "line_coverage": "100%",
+            "missed_complexity": "0",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "2",
+            "total_lines": "5",
+            "total_methods": "1"
+        },
+        "Apache Commons Collections.org.apache.commons.collections4.CollectionUtils.static {...}": {
+            "branch_coverage": "n/a",
+            "line_coverage": "100%",
+            "missed_complexity": "0",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "1",
+            "total_lines": "2",
+            "total_methods": "1"
+        },
+        "Apache Commons Collections.org.apache.commons.collections4.collection.AbstractCollectionDecorator.AbstractCollectionDecorator(Collection)": {
+            "branch_coverage": "50%",
+            "line_coverage": "61%",
+            "missed_complexity": "1",
+            "missed_lines": "1",
+            "missed_methods": "0",
+            "total_complexity": "2",
+            "total_lines": "5",
+            "total_methods": "1"
+        },
+        "Apache Commons Collections.org.apache.commons.collections4.collection.UnmodifiableCollection.UnmodifiableCollection(Collection)": {
+            "branch_coverage": "n/a",
+            "line_coverage": "100%",
+            "missed_complexity": "0",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "1",
+            "total_lines": "2",
+            "total_methods": "1"
+        },
+        "Apache Commons Collections.org.apache.commons.collections4.collection.UnmodifiableCollection.unmodifiableCollection(Collection)": {
+            "branch_coverage": "50%",
+            "line_coverage": "66%",
+            "missed_complexity": "1",
+            "missed_lines": "2",
+            "missed_methods": "0",
+            "total_complexity": "2",
+            "total_lines": "4",
+            "total_methods": "1"
+        },
+        "Apache Commons Collections.org.apache.commons.collections4.iterators.PermutationIterator.PermutationIterator(Collection)": {
+            "branch_coverage": "75%",
+            "line_coverage": "91%",
+            "missed_complexity": "1",
+            "missed_lines": "1",
+            "missed_methods": "0",
+            "total_complexity": "3",
+            "total_lines": "15",
+            "total_methods": "1"
+        },
+        "Apache Commons Collections.org.apache.commons.collections4.iterators.PermutationIterator.hasNext()": {
+            "branch_coverage": "100%",
+            "line_coverage": "100%",
+            "missed_complexity": "0",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "2",
+            "total_lines": "1",
+            "total_methods": "1"
+        },
+        "Apache Commons Collections.org.apache.commons.collections4.iterators.PermutationIterator.next()": {
+            "branch_coverage": "96%",
+            "line_coverage": "97%",
+            "missed_complexity": "1",
+            "missed_lines": "1",
+            "missed_methods": "0",
+            "total_complexity": "15",
+            "total_lines": "28",
+            "total_methods": "1"
+        }
+    }
+}

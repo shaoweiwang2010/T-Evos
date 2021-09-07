@@ -1,0 +1,86 @@
+{
+    "covered_lines": {
+        "Apache Commons Codec.org.apache.commons.codec.language.Metaphone": [
+            "73",
+            "79",
+            "80",
+            "93",
+            "103",
+            "105",
+            "106",
+            "131",
+            "132",
+            "145",
+            "146",
+            "150",
+            "329",
+            "334",
+            "335",
+            "343",
+            "348",
+            "422"
+        ]
+    },
+    "covered_stats": {
+        "Apache Commons Codec.org.apache.commons.codec.language.Metaphone.Metaphone()": {
+            "branch_coverage": "n/a",
+            "line_coverage": "100%",
+            "missed_complexity": "0",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "1",
+            "total_lines": "3",
+            "total_methods": "1"
+        },
+        "Apache Commons Codec.org.apache.commons.codec.language.Metaphone.getMaxCodeLen()": {
+            "branch_coverage": "n/a",
+            "line_coverage": "100%",
+            "missed_complexity": "0",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "1",
+            "total_lines": "1",
+            "total_methods": "1"
+        },
+        "Apache Commons Codec.org.apache.commons.codec.language.Metaphone.isLastChar(int, int)": {
+            "branch_coverage": "100%",
+            "line_coverage": "100%",
+            "missed_complexity": "0",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "2",
+            "total_lines": "1",
+            "total_methods": "1"
+        },
+        "Apache Commons Codec.org.apache.commons.codec.language.Metaphone.isPreviousChar(StringBuilder, int, char)": {
+            "branch_coverage": "66%",
+            "line_coverage": "90%",
+            "missed_complexity": "2",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "4",
+            "total_lines": "5",
+            "total_methods": "1"
+        },
+        "Apache Commons Codec.org.apache.commons.codec.language.Metaphone.isVowel(StringBuilder, int)": {
+            "branch_coverage": "50%",
+            "line_coverage": "80%",
+            "missed_complexity": "1",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "2",
+            "total_lines": "1",
+            "total_methods": "1"
+        },
+        "Apache Commons Codec.org.apache.commons.codec.language.Metaphone.metaphone(String)": {
+            "branch_coverage": "11%",
+            "line_coverage": "17%",
+            "missed_complexity": "76",
+            "missed_lines": "117",
+            "missed_methods": "0",
+            "total_complexity": "79",
+            "total_lines": "140",
+            "total_methods": "1"
+        }
+    }
+}

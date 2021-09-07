@@ -1,0 +1,67 @@
+{
+    "covered_lines": {
+        "Apache Commons Collections.org.apache.commons.collections4.comparators.ComparableComparator": [
+            "49",
+            "75",
+            "76"
+        ],
+        "Apache Commons Collections.org.apache.commons.collections4.comparators.ReverseComparator": [
+            "63",
+            "65",
+            "117",
+            "118"
+        ]
+    },
+    "covered_stats": {
+        "Apache Commons Collections.org.apache.commons.collections4.comparators.ComparableComparator.ComparableComparator()": {
+            "branch_coverage": "n/a",
+            "line_coverage": "100%",
+            "missed_complexity": "0",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "1",
+            "total_lines": "2",
+            "total_methods": "1"
+        },
+        "Apache Commons Collections.org.apache.commons.collections4.comparators.ComparableComparator.equals(Object)": {
+            "branch_coverage": "50%",
+            "line_coverage": "93%",
+            "missed_complexity": "3",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "4",
+            "total_lines": "2",
+            "total_methods": "1"
+        },
+        "Apache Commons Collections.org.apache.commons.collections4.comparators.ComparableComparator.static {...}": {
+            "branch_coverage": "n/a",
+            "line_coverage": "100%",
+            "missed_complexity": "0",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "1",
+            "total_lines": "1",
+            "total_methods": "1"
+        },
+        "Apache Commons Collections.org.apache.commons.collections4.comparators.ReverseComparator.ReverseComparator(Comparator)": {
+            "branch_coverage": "50%",
+            "line_coverage": "80%",
+            "missed_complexity": "1",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "2",
+            "total_lines": "3",
+            "total_methods": "1"
+        },
+        "Apache Commons Collections.org.apache.commons.collections4.comparators.ReverseComparator.equals(Object)": {
+            "branch_coverage": "50%",
+            "line_coverage": "77%",
+            "missed_complexity": "3",
+            "missed_lines": "3",
+            "missed_methods": "0",
+            "total_complexity": "4",
+            "total_lines": "8",
+            "total_methods": "1"
+        }
+    }
+}

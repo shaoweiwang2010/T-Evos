@@ -1,0 +1,20 @@
+{
+    "covered_lines": {
+        "Apache Commons Collections.org.apache.commons.collections4.iterators.BoundedIterator": [
+            "62",
+            "70"
+        ]
+    },
+    "covered_stats": {
+        "Apache Commons Collections.org.apache.commons.collections4.iterators.BoundedIterator.BoundedIterator(Iterator, long, long)": {
+            "branch_coverage": "50%",
+            "line_coverage": "40%",
+            "missed_complexity": "3",
+            "missed_lines": "8",
+            "missed_methods": "0",
+            "total_complexity": "4",
+            "total_lines": "13",
+            "total_methods": "1"
+        }
+    }
+}

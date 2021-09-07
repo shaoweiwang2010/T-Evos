@@ -1,0 +1,53 @@
+{
+    "covered_lines": {
+        "Apache Commons Codec.org.apache.commons.codec.net.QCodec": [
+            "61",
+            "65",
+            "66",
+            "67",
+            "68",
+            "69",
+            "70",
+            "71",
+            "72",
+            "73",
+            "74",
+            "75",
+            "76",
+            "77",
+            "78",
+            "79",
+            "80",
+            "82",
+            "84",
+            "85",
+            "86",
+            "87",
+            "88",
+            "90",
+            "92",
+            "93",
+            "94",
+            "95",
+            "96",
+            "98",
+            "100",
+            "101",
+            "102",
+            "103",
+            "104"
+        ]
+    },
+    "covered_stats": {
+        "Apache Commons Codec.org.apache.commons.codec.net.QCodec.static {...}": {
+            "branch_coverage": "100%",
+            "line_coverage": "100%",
+            "missed_complexity": "0",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "4",
+            "total_lines": "38",
+            "total_methods": "1"
+        }
+    }
+}

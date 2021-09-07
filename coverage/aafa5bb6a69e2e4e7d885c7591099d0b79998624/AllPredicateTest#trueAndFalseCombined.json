@@ -1,0 +1,76 @@
+{
+    "covered_lines": {
+        "Apache Commons Collections.org.apache.commons.collections4.functors.AbstractQuantifierPredicate": [
+            "42",
+            "43",
+            "44"
+        ],
+        "Apache Commons Collections.org.apache.commons.collections4.functors.AllPredicate": [
+            "80",
+            "87",
+            "97",
+            "98",
+            "109"
+        ],
+        "Apache Commons Collections.org.apache.commons.collections4.functors.FunctorUtils": [
+            "102",
+            "103",
+            "105",
+            "110",
+            "111",
+            "112"
+        ]
+    },
+    "covered_stats": {
+        "Apache Commons Collections.org.apache.commons.collections4.functors.AbstractQuantifierPredicate.AbstractQuantifierPredicate(Predicate[])": {
+            "branch_coverage": "n/a",
+            "line_coverage": "100%",
+            "missed_complexity": "0",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "1",
+            "total_lines": "3",
+            "total_methods": "1"
+        },
+        "Apache Commons Collections.org.apache.commons.collections4.functors.AllPredicate.AllPredicate(Predicate[])": {
+            "branch_coverage": "n/a",
+            "line_coverage": "100%",
+            "missed_complexity": "0",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "1",
+            "total_lines": "2",
+            "total_methods": "1"
+        },
+        "Apache Commons Collections.org.apache.commons.collections4.functors.AllPredicate.allPredicate(Collection)": {
+            "branch_coverage": "50%",
+            "line_coverage": "68%",
+            "missed_complexity": "2",
+            "missed_lines": "2",
+            "missed_methods": "0",
+            "total_complexity": "3",
+            "total_lines": "6",
+            "total_methods": "1"
+        },
+        "Apache Commons Collections.org.apache.commons.collections4.functors.AllPredicate.evaluate(Object)": {
+            "branch_coverage": "75%",
+            "line_coverage": "92%",
+            "missed_complexity": "1",
+            "missed_lines": "1",
+            "missed_methods": "0",
+            "total_complexity": "3",
+            "total_lines": "4",
+            "total_methods": "1"
+        },
+        "Apache Commons Collections.org.apache.commons.collections4.functors.FunctorUtils.validate(Collection)": {
+            "branch_coverage": "66%",
+            "line_coverage": "61%",
+            "missed_complexity": "2",
+            "missed_lines": "2",
+            "missed_methods": "0",
+            "total_complexity": "4",
+            "total_lines": "11",
+            "total_methods": "1"
+        }
+    }
+}

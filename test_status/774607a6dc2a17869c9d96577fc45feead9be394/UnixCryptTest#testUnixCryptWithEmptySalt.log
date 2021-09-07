@@ -1,0 +1,76 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------< commons-codec:commons-codec >---------------------
+[INFO] Building Commons Codec 1.7-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.5:prepare-agent (default) @ commons-codec ---
+[INFO] argLine set to -javaagent:/home/ubuntu/.m2/repository/org/jacoco/org.jacoco.agent/0.8.5/org.jacoco.agent-0.8.5-runtime.jar=destfile=/home/ubuntu/anrchen/defects4j_projects/commons-codec_cluster2/target/jacoco.exec,append=false
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.7:run (javadoc.resources) @ commons-codec ---
+[INFO] Executing tasks
+
+main:
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.3:process (default) @ commons-codec ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.1:create (default) @ commons-codec ---
+[INFO] Checking for local modifications: skipped.
+[INFO] Updating project files from SCM: skipped.
+[INFO] Executing: /bin/sh -c cd /home/ubuntu/anrchen/defects4j_projects/commons-codec_cluster2 && svn --non-interactive info
+[INFO] Working directory: /home/ubuntu/anrchen/defects4j_projects/commons-codec_cluster2
+[INFO] Storing buildNumber: ?????? at timestamp: 1614711239840
+[INFO] Executing: /bin/sh -c cd /home/ubuntu/anrchen/defects4j_projects/commons-codec_cluster2 && svn --non-interactive info
+[INFO] Working directory: /home/ubuntu/anrchen/defects4j_projects/commons-codec_cluster2
+[INFO] Storing buildScmBranch: UNKNOWN_BRANCH
+[INFO] 
+[INFO] --- maven-resources-plugin:2.5:resources (default-resources) @ commons-codec ---
+[debug] execute contextualize
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 124 resources
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.5.1:compile (default-compile) @ commons-codec ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-bundle-plugin:2.3.7:manifest (bundle-manifest) @ commons-codec ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.5:testResources (default-testResources) @ commons-codec ---
+[debug] execute contextualize
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/anrchen/defects4j_projects/commons-codec_cluster2/src/test/resources
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.5.1:testCompile (default-testCompile) @ commons-codec ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.2:test (default-test) @ commons-codec ---
+[INFO] Surefire report directory: /home/ubuntu/anrchen/defects4j_projects/commons-codec_cluster2/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.apache.commons.codec.digest.UnixCryptTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.313 sec
+
+Results :
+
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.5:report (report) @ commons-codec ---
+[INFO] Loading execution data file /home/ubuntu/anrchen/defects4j_projects/commons-codec_cluster2/target/jacoco.exec
+[INFO] Analyzed bundle 'Commons Codec' with 74 classes
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ commons-codec ---
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:test-jar (default) @ commons-codec ---
+[INFO] 
+[INFO] --- maven-site-plugin:3.1:attach-descriptor (attach-descriptor) @ commons-codec ---
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  10.089 s
+[INFO] Finished at: 2021-03-02T18:54:06Z
+[INFO] ------------------------------------------------------------------------

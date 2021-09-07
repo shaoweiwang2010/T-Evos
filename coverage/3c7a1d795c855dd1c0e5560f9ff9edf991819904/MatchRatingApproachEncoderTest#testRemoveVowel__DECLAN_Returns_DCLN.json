@@ -1,0 +1,58 @@
+{
+    "covered_lines": {
+        "Apache Commons Codec.org.apache.commons.codec.language.MatchRatingApproachEncoder": [
+            "32",
+            "66",
+            "407",
+            "409",
+            "410",
+            "411",
+            "412",
+            "413",
+            "415",
+            "421"
+        ]
+    },
+    "covered_stats": {
+        "Apache Commons Codec.org.apache.commons.codec.language.MatchRatingApproachEncoder.MatchRatingApproachEncoder()": {
+            "branch_coverage": "n/a",
+            "line_coverage": "100%",
+            "missed_complexity": "0",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "1",
+            "total_lines": "1",
+            "total_methods": "1"
+        },
+        "Apache Commons Codec.org.apache.commons.codec.language.MatchRatingApproachEncoder.isVowel(String)": {
+            "branch_coverage": "50%",
+            "line_coverage": "91%",
+            "missed_complexity": "5",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "6",
+            "total_lines": "2",
+            "total_methods": "1"
+        },
+        "Apache Commons Codec.org.apache.commons.codec.language.MatchRatingApproachEncoder.removeVowels(String)": {
+            "branch_coverage": "50%",
+            "line_coverage": "82%",
+            "missed_complexity": "1",
+            "missed_lines": "1",
+            "missed_methods": "0",
+            "total_complexity": "2",
+            "total_lines": "10",
+            "total_methods": "1"
+        },
+        "Apache Commons Codec.org.apache.commons.codec.language.MatchRatingApproachEncoder.static {...}": {
+            "branch_coverage": "n/a",
+            "line_coverage": "100%",
+            "missed_complexity": "0",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "1",
+            "total_lines": "1",
+            "total_methods": "1"
+        }
+    }
+}

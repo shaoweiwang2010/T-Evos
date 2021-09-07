@@ -1,0 +1,23 @@
+{
+    "covered_lines": {
+        "Apache Commons Codec.org.apache.commons.codec.digest.B64": [
+            "57",
+            "59",
+            "61",
+            "62",
+            "64"
+        ]
+    },
+    "covered_stats": {
+        "Apache Commons Codec.org.apache.commons.codec.digest.B64.b64from24bit(byte, byte, byte, int, StringBuilder)": {
+            "branch_coverage": "100%",
+            "line_coverage": "100%",
+            "missed_complexity": "0",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "2",
+            "total_lines": "6",
+            "total_methods": "1"
+        }
+    }
+}

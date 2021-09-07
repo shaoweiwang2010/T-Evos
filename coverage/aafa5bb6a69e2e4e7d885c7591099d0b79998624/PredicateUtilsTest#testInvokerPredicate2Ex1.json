@@ -1,0 +1,19 @@
+{
+    "covered_lines": {
+        "Apache Commons Collections.org.apache.commons.collections4.functors.InvokerTransformer": [
+            "73"
+        ]
+    },
+    "covered_stats": {
+        "Apache Commons Collections.org.apache.commons.collections4.functors.InvokerTransformer.invokerTransformer(String, Class[], Object[])": {
+            "branch_coverage": "5%",
+            "line_coverage": "15%",
+            "missed_complexity": "10",
+            "missed_lines": "5",
+            "missed_methods": "0",
+            "total_complexity": "11",
+            "total_lines": "7",
+            "total_methods": "1"
+        }
+    }
+}

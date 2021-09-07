@@ -1,0 +1,118 @@
+{
+    "covered_lines": {
+        "Apache Commons Codec.org.apache.commons.codec.language.bm.Languages": [
+            "61",
+            "157",
+            "161",
+            "171",
+            "172",
+            "178",
+            "180",
+            "182",
+            "185",
+            "189",
+            "191",
+            "194",
+            "196",
+            "199",
+            "203",
+            "211",
+            "251",
+            "288",
+            "289",
+            "290"
+        ],
+        "Apache Commons Codec.org.apache.commons.codec.language.bm.NameType": [
+            "28",
+            "31",
+            "34",
+            "37",
+            "41",
+            "42",
+            "43",
+            "51"
+        ],
+        "Apache Commons Codec.org.apache.commons.codec.language.bm.Rule": [
+            "85",
+            "92",
+            "102",
+            "109",
+            "110",
+            "111",
+            "112",
+            "139"
+        ]
+    },
+    "covered_stats": {
+        "Apache Commons Codec.org.apache.commons.codec.language.bm.Languages.Languages(Set)": {
+            "branch_coverage": "n/a",
+            "line_coverage": "100%",
+            "missed_complexity": "0",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "1",
+            "total_lines": "3",
+            "total_methods": "1"
+        },
+        "Apache Commons Codec.org.apache.commons.codec.language.bm.Languages.getInstance(String)": {
+            "branch_coverage": "91%",
+            "line_coverage": "82%",
+            "missed_complexity": "1",
+            "missed_lines": "1",
+            "missed_methods": "0",
+            "total_complexity": "7",
+            "total_lines": "18",
+            "total_methods": "1"
+        },
+        "Apache Commons Codec.org.apache.commons.codec.language.bm.Languages.langResourceName(NameType)": {
+            "branch_coverage": "n/a",
+            "line_coverage": "100%",
+            "missed_complexity": "0",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "1",
+            "total_lines": "1",
+            "total_methods": "1"
+        },
+        "Apache Commons Codec.org.apache.commons.codec.language.bm.Languages.static {...}": {
+            "branch_coverage": "100%",
+            "line_coverage": "100%",
+            "missed_complexity": "0",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "2",
+            "total_lines": "5",
+            "total_methods": "1"
+        },
+        "Apache Commons Codec.org.apache.commons.codec.language.bm.NameType.NameType(String, int, String)": {
+            "branch_coverage": "n/a",
+            "line_coverage": "100%",
+            "missed_complexity": "0",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "1",
+            "total_lines": "3",
+            "total_methods": "1"
+        },
+        "Apache Commons Codec.org.apache.commons.codec.language.bm.NameType.getName()": {
+            "branch_coverage": "n/a",
+            "line_coverage": "100%",
+            "missed_complexity": "0",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "1",
+            "total_lines": "1",
+            "total_methods": "1"
+        },
+        "Apache Commons Codec.org.apache.commons.codec.language.bm.NameType.static {...}": {
+            "branch_coverage": "n/a",
+            "line_coverage": "100%",
+            "missed_complexity": "0",
+            "missed_lines": "0",
+            "missed_methods": "0",
+            "total_complexity": "1",
+            "total_lines": "4",
+            "total_methods": "1"
+        }
+    }
+}

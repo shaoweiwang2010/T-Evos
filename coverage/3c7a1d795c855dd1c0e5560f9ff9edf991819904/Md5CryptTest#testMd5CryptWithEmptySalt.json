@@ -1,0 +1,22 @@
+{
+    "covered_lines": {
+        "Apache Commons Codec.org.apache.commons.codec.digest.Md5Crypt": [
+            "180",
+            "187",
+            "188",
+            "190"
+        ]
+    },
+    "covered_stats": {
+        "Apache Commons Codec.org.apache.commons.codec.digest.Md5Crypt.md5Crypt(byte[], String, String)": {
+            "branch_coverage": "12%",
+            "line_coverage": "14%",
+            "missed_complexity": "12",
+            "missed_lines": "51",
+            "missed_methods": "0",
+            "total_complexity": "13",
+            "total_lines": "57",
+            "total_methods": "1"
+        }
+    }
+}
