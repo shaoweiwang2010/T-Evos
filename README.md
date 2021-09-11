@@ -2,13 +2,15 @@
 
 **Paper submission to ICSE 2022**: T-Evos: A Large-Scale Longitudinal Study on CI Test Execution and Coverage Evolution
 
+This GitHub repository is created to showcase our dataset. Please kindly find our complete dataset on code coverage and test results at [T-Evos Zenodo repository](https://zenodo.org/record/5500821)
+
 ## Description
 
 T-Evos is a dataset on test result and coverage evolution, covering 6,495 consecutive commits across 12 open-source Java projects.
 
 Due to the large volume of data, we are still looking for the best way to share them. 🤔 More updates to come! 
 
-💬 v1.0: added some sample data to help illustrate our dataset
+💬 v0.1.0: added some sample data to help illustrate our dataset, please kindly find our full dataset on code coverage and test results at https://zenodo.org/record/5500821
 
 ## Data summary
 We summarize the dataset below.
