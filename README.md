@@ -1,6 +1,6 @@
 # T-Evos
 
-**Paper submission to ICSE 2022**: T-Evos: A Large-Scale Longitudinal Study on CI Test Execution and Coverage Evolution
+T-Evos: A Large-Scale Longitudinal Study on CI Test Execution and Coverage Evolution
 
 This GitHub repository is created to showcase our dataset. Please kindly find our complete dataset on code coverage and test results at [T-Evos Zenodo repository](https://zenodo.org/record/5500821)
 
